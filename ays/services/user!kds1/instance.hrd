@@ -1,0 +1,17 @@
+email                          = 
+    ,
+
+expire                         = '-1'
+
+mobile                         = 
+    ,
+
+service.domain                 = 'ays'
+service.name                   = 'user'
+service.version                = 
+
+test                           = 1
+
+testb                          = False
+
+testf                          = 1.1
