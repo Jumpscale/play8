@@ -1,0 +1,8 @@
+members = descr:'list of users, can use email addr or tel nr' type:string list
+description = type:string
+
+
+
+
+
+
