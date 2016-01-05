@@ -1,0 +1,10 @@
+
+location = type:str  @ask
+description = type:mulitline  @ask
+rack = type:str parent:rack
+
+
+
+
+
+

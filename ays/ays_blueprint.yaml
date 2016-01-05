@@ -21,3 +21,53 @@ usergroup_admin:
   members:
     - "kristof@incubaid.com"
     - "pol@incubaid.com"
+
+datacenter_dc1:
+  location:
+    - alocation
+  description:
+    - "a description"
+
+rack_rack1:
+  location:
+    - alocation
+  description:
+    - "a description"
+  datacenter: "dc1"
+
+node_ovh4:
+  location:
+    - alocation
+  description:
+    - "a description"
+  rack: "rack1"
+
+mongodb_mongo1:
+  description:
+    - "a description"
+
+redis_redis1:
+  description:
+    - "a description"
+
+redis_redis2:
+  description:
+    - "a description"
+
+etcd_etcd1:
+  description:
+    - "a description"
+
+etcd_etcd2:
+  description:
+    - "a description"
+
+etcd_etcd3:
+  description:
+    - "a description"
+
+myapp_test:
+  node: 'ovh4'
+  redis: 'redis1,redis2'
+  etcd: 'etcd1,etcd2,etcd3'
+  mongodb: 'mongo1'

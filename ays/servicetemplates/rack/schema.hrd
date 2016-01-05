@@ -1,0 +1,8 @@
+
+location = type:str  @ask
+description = type:mulitline  @ask
+
+parent = type:str parent:datacenter
+
+
+

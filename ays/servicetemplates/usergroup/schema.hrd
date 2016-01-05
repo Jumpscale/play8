@@ -1,0 +1,9 @@
+
+users = type:str list consume:user:0:100
+groups = type:str list consume:user:0:10
+
+
+
+
+
+
