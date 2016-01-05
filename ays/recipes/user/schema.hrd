@@ -1,7 +1,0 @@
-email = descr:'comma separated list of email addresses' type:email alias:'mail,mailaddr' @ask list
-mobile = descr:'comma separate list of mobile phone nrs' type:tel alias:'tel,landline' @ask list
-expire = descr:'format $day:$month:$year' type:date alias:till @ask
-
-
-
-
