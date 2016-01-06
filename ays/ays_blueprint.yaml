@@ -49,7 +49,7 @@ datacenter_dc1:
   location:
     - alocation
   description:
-    - "a description"
+    - "a descriptionn"
 
 rack_rack1:
   location:
