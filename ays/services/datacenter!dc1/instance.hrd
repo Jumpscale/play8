@@ -1,7 +1,0 @@
-description                    = 'a descriptionn'
-
-location                       = 'alocation'
-
-service.domain                 = 'ays'
-service.name                   = 'datacenter'
-service.version                = 

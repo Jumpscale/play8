@@ -1,8 +1,0 @@
-email = descr:'comma separated list of email addresses' type:email alias:'mail,mailaddr' @ask list
-mobile = descr:'comma separate list of mobile phone nrs' type:tel alias:'tel,landline' list
-expire = descr:'format $day:$month:$year' type:date alias:till default:'-1'
-
-identity_manager = descr:'identifies who deals with identities, the default one is just local hrds' type:str parent:'idmanager' parentauto
-
-
-

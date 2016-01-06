@@ -1,0 +1,52 @@
+
+
+
+datacenter_dc1:
+  location:
+    - alocation
+  description:
+    - "a descriptionn"
+
+rack_rack1:
+  location:
+    - alocation
+  description:
+    - "a description"
+  datacenter: "dc1"
+
+node_ovh4:
+  location:
+    - alocation
+  description:
+    - "a description"
+  rack: "rack1"
+
+mongodb_mongo1:
+  description:
+    - "a description"
+
+redis_redis1:
+  description:
+    - "a description"
+
+redis_redis2:
+  description:
+    - "a description"
+
+etcd_etcd1:
+  description:
+    - "a description"
+
+etcd_etcd2:
+  description:
+    - "a description"
+
+etcd_etcd3:
+  description:
+    - "a description"
+
+#there is only 1 node specified above, scheme asks for a node, so node should be filled in auto
+myapp_test:
+  redis: 'redis1'
+  etcd: 'etcd1,etcd2,etcd3'
+  mongodb: 'mongo1'
