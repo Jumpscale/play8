@@ -1,6 +1,6 @@
 
 
-description = type:mulitline  default:'something'
+description = type:multiline  default:'something'
 
 
 

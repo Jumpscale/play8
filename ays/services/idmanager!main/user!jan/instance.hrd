@@ -1,0 +1,15 @@
+email                          = 
+    'jan@incubaid.com',
+
+expire                         = '-1'
+
+identity_manager               = 
+
+mobile                         = 
+    '+32475999999',
+
+parent                         = 'ays|idmanager!main'
+
+service.domain                 = 'ays'
+service.name                   = 'user'
+service.version                = 
