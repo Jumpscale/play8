@@ -23,6 +23,7 @@ handler=MyHandler()
 
 logger.addHandler(handler)
 
+
 class Test():
     def een(self):
         print(1)
