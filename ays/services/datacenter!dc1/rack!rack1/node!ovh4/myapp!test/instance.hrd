@@ -1,25 +1,26 @@
 description                    = 'something'
 
-etcd                           = 
+etcd                           =
     'etcd1',
     'etcd2',
     'etcd3',
 
-mongodb                        = 
+mongodb                        =
     'mongo1',
 
-nameserver                     = ,
+nameserver                     =
+,
 
 node                           = 'ovh4'
 
 parent                         = 'ays|node!ovh4'
 
-producer.etcd                  = 
+producer.etcd                  =
     'ays|etcd!etcd1',
     'ays|etcd!etcd2',
     'ays|etcd!etcd3',
 
-producer.mongodb               = 
+producer.mongodb               =
     'ays|mongodb!mongo1',
 
 service.domain                 = 'ays'

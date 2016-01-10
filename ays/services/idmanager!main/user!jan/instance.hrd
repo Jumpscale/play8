@@ -1,11 +1,11 @@
-email                          = 
+email                          =
     'jan@incubaid.com',
 
 expire                         = '-1'
 
 identity_manager               = 
 
-mobile                         = 
+mobile                         =
     '+32475999999',
 
 parent                         = 'ays|idmanager!main'

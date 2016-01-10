@@ -1,14 +1,15 @@
-groups                         = ,
+groups                         =
+,
 
 identity_manager               = 
 
-members                        = 
+members                        =
     'despiegk',
     'jan',
 
 parent                         = 'ays|idmanager!main'
 
-producer.user                  = 
+producer.user                  =
     'ays|user!despiegk',
     'ays|user!jan',
 
@@ -16,6 +17,6 @@ service.domain                 = 'ays'
 service.name                   = 'usergroup'
 service.version                = 
 
-users                          = 
+users                          =
     'kristof@incubaid.com',
     'jan@incubaid.com',
