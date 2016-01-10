@@ -8,8 +8,7 @@ etcd                           =
 mongodb                        =
     'mongo1',
 
-nameserver                     =
-,
+nameserver                     = 
 
 node                           = 'ovh4'
 
