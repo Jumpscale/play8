@@ -1,0 +1,27 @@
+groups                         = 
+    'gig',
+
+identity_manager               = 
+
+members                        = 
+    'despiegk',
+    'pol',
+    'jan',
+
+parent                         = 'ays|idmanager!main'
+
+producer.user                  = 
+    'ays|user!despiegk',
+    'ays|user!pol',
+    'ays|user!jan',
+
+producer.usergroup             = 
+    'ays|usergroup!gig',
+
+service.domain                 = 'ays'
+service.name                   = 'usergroup'
+service.version                = 
+
+users                          = 
+    'kristof@incubaid.com',
+    'pol@incubaid.com',

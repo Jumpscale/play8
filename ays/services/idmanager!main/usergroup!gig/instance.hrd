@@ -1,0 +1,21 @@
+groups                         = ,
+
+identity_manager               = 
+
+members                        = 
+    'despiegk',
+    'jan',
+
+parent                         = 'ays|idmanager!main'
+
+producer.user                  = 
+    'ays|user!despiegk',
+    'ays|user!jan',
+
+service.domain                 = 'ays'
+service.name                   = 'usergroup'
+service.version                = 
+
+users                          = 
+    'kristof@incubaid.com',
+    'jan@incubaid.com',

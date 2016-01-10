@@ -1,0 +1,5 @@
+description                    = 'a description'
+
+service.domain                 = 'ays'
+service.name                   = 'mongodb'
+service.version                = 
