@@ -18,3 +18,13 @@ A | 1452956849 | user            | jan                       | init            |
 A | 1452956849 | user            | jan                       | init            | init  | DONE
 A | 1452956849 | user            | jan2                      | init            | init  | START
 L |              1  | consume from ays§§user!jan2():ays§§idmanager!main()
+A | 1452957157 | user            | despiegk                  | init            | init  | START
+A | 1452957157 | user            | despiegk                  | init            | init  | DONE
+A | 1452957157 | user            | pol                       | init            | init  | START
+A | 1452957157 | user            | pol                       | init            | init  | DONE
+A | 1452957157 | user            | jan                       | init            | init  | START
+A | 1452957157 | user            | jan                       | init            | init  | DONE
+A | 1452957157 | user            | jan2                      | init            | init  | START
+A | 1452957157 | user            | jan2                      | init            | init  | DONE
+A | 1452957157 | usergroup       | gig                       | init            | init  | START
+L |                 | consume from ays§§usergroup!gig():ays§§idmanager!main()
