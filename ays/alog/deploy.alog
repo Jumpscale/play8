@@ -45,3 +45,10 @@ A | 1452919920 | user            | pol                       | init | DONE
 A | 1452919920 | user            | jan                       | init | START
 A | 1452919920 | user            | jan                       | init | DONE
 G | init | 1452919921 | ad673d3d7079524b4bd22f75d9c588aa3c15ddc2 |2016/01/16 08:52:01
+
+A | 1452920999 | user            | despiegk                  | init | START
+A | 1452920999 | user            | despiegk                  | init | DONE
+A | 1452920999 | user            | pol                       | init | START
+A | 1452920999 | user            | pol                       | init | DONE
+A | 1452920999 | user            | jan                       | init | START
+A | 1452920999 | user            | jan                       | init | DONE
