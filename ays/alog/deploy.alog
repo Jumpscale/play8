@@ -88,3 +88,9 @@ G | init | 1452921176 | 5ea19c5388da8607275b8a669ef44f8602bcd4d8 |2016/01/16 09:
 G | init | 1452921358 | 61f65f9ba4dd6264c19c8341e4fb8f46597629ad |2016/01/16 09:15:58
 G | init | 1452921365 | a9e7e29fdfa938f40c00fa491319bf8efbeb83b0 |2016/01/16 09:16:05
 G | init | 1452921439 | bcb850fb03e4f442167517f785c729bbc22e77c3 |2016/01/16 09:17:19
+A | 1452921614 | user            | despiegk                  | init | START
+A | 1452921614 | user            | despiegk                  | init | DONE
+A | 1452921614 | user            | pol                       | init | START
+A | 1452921614 | user            | pol                       | init | DONE
+A | 1452921614 | user            | jan                       | init | START
+A | 1452921614 | user            | jan                       | init | DONE
