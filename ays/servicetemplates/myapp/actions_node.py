@@ -1,7 +1,7 @@
 
 from JumpScale import j
 
-ActionsBase = j.atyourservice.getActionsBaseClass()
+ActionsBase = j.atyourservice.getActionsBaseClassNode()
 
 
 class Actions(ActionsBase):
