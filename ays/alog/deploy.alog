@@ -118,3 +118,4 @@ A | 1452921832 | user            | pol                       | init | START
 A | 1452921832 | user            | pol                       | init | DONE
 A | 1452921832 | user            | jan                       | init | START
 A | 1452921832 | user            | jan                       | init | DONE
+G | init | 1452921832 | 736d28f0d3528a28bbf227be26181a7f56a6463e |2016/01/16 09:23:52
