@@ -30,3 +30,4 @@ A | 1452918765 | etcd            | etcd3                     | init | DONE
 A | 1452918765 | myapp           | test                      | init | START
 A | 1452918765 | myapp           | test                      | init | DONE
 G | init | 1452918765 | dce480be991c0a0ea826f18b566785527535f286 |2016/01/16 08:32:45
+G | init | 1452918853 | b6df67348b7661150d49c0d465dccdcab0563a6e |2016/01/16 08:34:13
