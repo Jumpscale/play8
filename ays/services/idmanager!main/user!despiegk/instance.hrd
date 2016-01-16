@@ -18,7 +18,8 @@ email                          =
     'kristof@incubaid.com',
     'something@incubaid.com',
 
-expire                         = 20:10:2018
+expire                         =
+20:10:2018
 
 identity_manager               = 
 
