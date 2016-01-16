@@ -8,22 +8,21 @@ etcd                           =
 mongodb                        =
     'mongo1',
 
-nameserver                     =
-,
+nameserver                     = 
 
 node                           = 'ovh4'
 
 parent                         = 'ays|node!ovh4'
 
-producer.ays|etcd!etcd3        = 
+producer.ays|etcd!etcd3        =
     'ays|etcd!etcd1',
     'ays|etcd!etcd3',
     'ays|etcd!etcd2',
 
-producer.ays|mongodb!mongo1    = 
+producer.ays|mongodb!mongo1    =
     'ays|mongodb!mongo1',
 
-producer.ays|node!ovh4         = 
+producer.ays|node!ovh4         =
     'ays|node!ovh4',
 
 producer.etcd                  =

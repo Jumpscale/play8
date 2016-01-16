@@ -1,5 +1,4 @@
-groups                         =
-,
+groups                         = 
 
 identity_manager               = 
 
@@ -9,10 +8,10 @@ members                        =
 
 parent                         = 'ays|idmanager!main'
 
-producer.ays|idmanager!main    = 
+producer.ays|idmanager!main    =
     'ays|idmanager!main',
 
-producer.ays|user!jan          = 
+producer.ays|user!jan          =
     'ays|user!despiegk',
     'ays|user!jan',
 
