@@ -4,6 +4,9 @@ location                       = 'alocation'
 
 parent                         = 'ays|datacenter!dc1'
 
+producer.ays|datacenter!dc1    = 
+    'ays|datacenter!dc1',
+
 service.domain                 = 'ays'
 service.name                   = 'rack'
 service.version                = 

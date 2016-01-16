@@ -5,7 +5,7 @@ email                          =
     'something@incubaid.com',
 
 expire                         =
-20:10:2018
+    20:'10:2018',
 
 identity_manager               = 
 
@@ -14,6 +14,9 @@ mobile                         =
     '+20454545454',
 
 parent                         = 'ays|idmanager!main'
+
+producer.ays|idmanager!main    = 
+    'ays|idmanager!main',
 
 service.domain                 = 'ays'
 service.name                   = 'user'

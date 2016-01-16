@@ -10,6 +10,17 @@ members                        =
 
 parent                         = 'ays|idmanager!main'
 
+producer.ays|idmanager!main    = 
+    'ays|idmanager!main',
+
+producer.ays|user!jan          = 
+    'ays|user!pol',
+    'ays|user!despiegk',
+    'ays|user!jan',
+
+producer.ays|usergroup!gig     = 
+    'ays|usergroup!gig',
+
 producer.user                  =
     'ays|user!despiegk',
     'ays|user!pol',

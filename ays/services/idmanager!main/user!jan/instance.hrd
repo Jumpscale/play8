@@ -12,6 +12,9 @@ mobile                         =
 
 parent                         = 'ays|idmanager!main'
 
+producer.ays|idmanager!main    = 
+    'ays|idmanager!main',
+
 service.domain                 = 'ays'
 service.name                   = 'user'
 service.version                = 

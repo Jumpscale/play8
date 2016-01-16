@@ -4,6 +4,9 @@ location                       = 'alocation'
 
 parent                         = 'ays|rack!rack1'
 
+producer.ays|rack!rack1        = 
+    'ays|rack!rack1',
+
 rack                           = 'rack1'
 
 service.domain                 = 'ays'
