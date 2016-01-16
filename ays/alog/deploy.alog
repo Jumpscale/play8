@@ -36,3 +36,4 @@ A | 1452919455 | user            | pol                       | init | START
 A | 1452919455 | user            | pol                       | init | DONE
 A | 1452919455 | user            | jan                       | init | START
 A | 1452919455 | user            | jan                       | init | DONE
+G | init | 1452919455 | 1b804108838658e14413a5b118491a944372c753 |2016/01/16 08:44:15
