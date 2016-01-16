@@ -10,3 +10,11 @@ A | 1452956756 | user            | despiegk                  | init            |
 A | 1452956756 | user            | pol                       | init            | init  | START
 A | 1452956756 | user            | pol                       | init            | init  | DONE
 A | 1452956756 | user            | jan                       | init            | init  | START
+A | 1452956849 | user            | despiegk                  | init            | init  | START
+A | 1452956849 | user            | despiegk                  | init            | init  | DONE
+A | 1452956849 | user            | pol                       | init            | init  | START
+A | 1452956849 | user            | pol                       | init            | init  | DONE
+A | 1452956849 | user            | jan                       | init            | init  | START
+A | 1452956849 | user            | jan                       | init            | init  | DONE
+A | 1452956849 | user            | jan2                      | init            | init  | START
+L |              1  | consume from ays§§user!jan2():ays§§idmanager!main()

@@ -1,7 +1,7 @@
 add16                          = 'sometjiee'
 
 email                          =
-    'jan@incubaid.com',
+    'jan2@incubaid.com',
 
 expire                         = '-1'
 
@@ -12,7 +12,7 @@ mobile                         =
 
 parent                         = 'ays|idmanager!main'
 
-producer.ays|idmanager!main    =
+producer.ays|idmanager!main    = 
     'ays|idmanager!main',
 
 service.domain                 = 'ays'
