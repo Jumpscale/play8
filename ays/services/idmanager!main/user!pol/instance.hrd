@@ -4,11 +4,12 @@ add3                           = 'sometji'
 
 add4                           = 'sometji'
 
+add6                           = 'sometji'
+
 email                          =
     'pol@incubaid.com',
 
-expire                         =
-20:11:2018
+expire                         = 20:11:2018
 
 identity_manager               = 
 
