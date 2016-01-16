@@ -84,3 +84,4 @@ A | 1452921169 | user            | pol                       | init | DONE
 A | 1452921169 | user            | jan                       | init | START
 A | 1452921169 | user            | jan                       | init | DONE
 G | init | 1452921169 | 322ea0d2d4a4778500cdddcfd453327fde89acaa |2016/01/16 09:12:49
+G | init | 1452921176 | 5ea19c5388da8607275b8a669ef44f8602bcd4d8 |2016/01/16 09:12:56
