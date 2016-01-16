@@ -2,3 +2,6 @@ R | 1   | 1452955493 |2016/01/16 18:44:53
 A | 1452956473 | user            | despiegk                  | init            | init  | START
 A | 1452956473 | idmanager       | main                      | init            | init  | START
 A | 1452956473 | idmanager       | main                      | init            | init  | DONE
+A | 1452956666 | user            | despiegk                  | init            | init  | START
+A | 1452956666 | user            | despiegk                  | init            | init  | DONE
+A | 1452956666 | user            | pol                       | init            | init  | START
