@@ -4,6 +4,6 @@ expire = descr:'format $day:$month:$year' type:date alias:till default:'-1'
 
 identity_manager = descr:'identifies who deals with identities, the default one is just local hrds' type:str parent:'idmanager' parentauto
 
-add8 = type:str default:sometjiee
+add9 = type:str default:sometjiee
 
 

@@ -53,3 +53,9 @@ A | 1452920999 | user            | pol                       | init | DONE
 A | 1452920999 | user            | jan                       | init | START
 A | 1452920999 | user            | jan                       | init | DONE
 G | init | 1452920999 | 6951b8ea2572f76c3fddf240089d9cdbdef16f0e |2016/01/16 09:09:59
+A | 1452921102 | user            | despiegk                  | init | START
+A | 1452921102 | user            | despiegk                  | init | DONE
+A | 1452921102 | user            | pol                       | init | START
+A | 1452921102 | user            | pol                       | init | DONE
+A | 1452921102 | user            | jan                       | init | START
+A | 1452921102 | user            | jan                       | init | DONE
