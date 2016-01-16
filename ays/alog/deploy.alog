@@ -5,3 +5,8 @@ A | 1452956473 | idmanager       | main                      | init            |
 A | 1452956666 | user            | despiegk                  | init            | init  | START
 A | 1452956666 | user            | despiegk                  | init            | init  | DONE
 A | 1452956666 | user            | pol                       | init            | init  | START
+A | 1452956756 | user            | despiegk                  | init            | init  | START
+A | 1452956756 | user            | despiegk                  | init            | init  | DONE
+A | 1452956756 | user            | pol                       | init            | init  | START
+A | 1452956756 | user            | pol                       | init            | init  | DONE
+A | 1452956756 | user            | jan                       | init            | init  | START
