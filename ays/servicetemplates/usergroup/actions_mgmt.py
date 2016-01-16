@@ -55,3 +55,10 @@ class Actions(ActionsBase):
         ActionsBase.input(self,serviceObj)
         
 
+    def install_pre(self, service_obj):
+
+        print("check with id mgmt system if user exists")
+
+    def install_post(self, service_obj):
+
+        print.log("send email to customer to let him know he exists")
