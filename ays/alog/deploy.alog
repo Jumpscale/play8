@@ -125,3 +125,4 @@ A | 1452921841 | user            | pol                       | init | START
 A | 1452921841 | user            | pol                       | init | DONE
 A | 1452921841 | user            | jan                       | init | START
 A | 1452921841 | user            | jan                       | init | DONE
+G | init | 1452921841 | 2eab705f9af8f4043293a98a81f34518e15e0ebe |2016/01/16 09:24:01
