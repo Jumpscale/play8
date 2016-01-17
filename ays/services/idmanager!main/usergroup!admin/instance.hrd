@@ -1,38 +1,27 @@
-groups                         =
+groups                         = 
     'gig',
 
 identity_manager               = 
 
-members                        =
+members                        = 
     'despiegk',
     'pol',
     'jan',
 
 parent                         = 'ays|idmanager!main'
 
-producer.ays|idmanager!main    = 
-    'ays|idmanager!main',
-
-producer.ays|user!jan          = 
-    'ays|user!jan',
-    'ays|user!pol',
-    'ays|user!despiegk',
-
-producer.ays|usergroup!gig     = 
-    'ays|usergroup!gig',
-
-producer.user                  =
+producer.user                  = 
     'ays|user!despiegk',
     'ays|user!pol',
     'ays|user!jan',
 
-producer.usergroup             =
+producer.usergroup             = 
     'ays|usergroup!gig',
 
 service.domain                 = 'ays'
 service.name                   = 'usergroup'
 service.version                = 
 
-users                          =
+users                          = 
     'kristof@incubaid.com',
     'pol@incubaid.com',

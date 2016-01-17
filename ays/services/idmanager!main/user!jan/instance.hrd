@@ -1,19 +1,16 @@
 add16                          = 'sometjiee'
 
-email                          =
+email                          = 
     'jan@incubaid.com',
 
 expire                         = '-1'
 
 identity_manager               = 
 
-mobile                         =
+mobile                         = 
     '+32475999999',
 
 parent                         = 'ays|idmanager!main'
-
-producer.ays|idmanager!main    = 
-    'ays|idmanager!main',
 
 service.domain                 = 'ays'
 service.name                   = 'user'
