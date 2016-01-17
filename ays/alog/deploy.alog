@@ -1,105 +1,105 @@
-R | 1453004816 | 1        |2016/01/17 08:26:56
-A | 1453004816 | user!despiegk        | input    | START
-A | 1453004816 | idmanager!main       | input    | START
-A | 1453004816 | idmanager!main       | input    | OK
-A | 1453004816 | idmanager!main       | hrd      | START
-A | 1453004816 | idmanager!main       | hrd      | OK
-A | 1453004821 | user!despiegk        | input    | ERROR
-L | 1453004821 | 5        | Exception:
-A | 1453004821 | user!despiegk        | input    | OK
-A | 1453004821 | user!despiegk        | hrd      | START
-A | 1453004821 | user!despiegk        | hrd      | OK
-L | 1453004821 | 5        | consume from ays|user!despiegk():ays|idmanager!main()
-L | 1453004821 | 5        | consumption done
-A | 1453004821 | user!pol             | input    | START
-A | 1453004822 | user!pol             | input    | ERROR
-L | 1453004822 | 5        | Exception:
-A | 1453004822 | user!pol             | input    | OK
-A | 1453004822 | user!pol             | hrd      | START
-A | 1453004822 | user!pol             | hrd      | OK
-L | 1453004822 | 5        | consume from ays|user!pol():ays|idmanager!main()
-L | 1453004822 | 5        | consumption done
-A | 1453004822 | user!jan             | input    | START
-A | 1453004823 | user!jan             | input    | ERROR
-L | 1453004823 | 5        | Exception:
-A | 1453004823 | user!jan             | input    | OK
-A | 1453004823 | user!jan             | hrd      | START
-A | 1453004823 | user!jan             | hrd      | OK
-L | 1453004823 | 5        | consume from ays|user!jan():ays|idmanager!main()
-L | 1453004823 | 5        | consumption done
-A | 1453004823 | user!jan2            | input    | START
-A | 1453004824 | user!jan2            | input    | ERROR
-L | 1453004824 | 5        | Exception:
-A | 1453004824 | user!jan2            | input    | OK
-A | 1453004824 | user!jan2            | hrd      | START
-A | 1453004824 | user!jan2            | hrd      | OK
-L | 1453004824 | 5        | consume from ays|user!jan2():ays|idmanager!main()
-L | 1453004824 | 5        | consumption done
-A | 1453004824 | usergroup!gig        | input    | START
-A | 1453004824 | usergroup!gig        | input    | ERROR
-L | 1453004824 | 5        | Exception:
-A | 1453004824 | usergroup!gig        | input    | OK
-A | 1453004824 | usergroup!gig        | hrd      | START
-A | 1453004824 | usergroup!gig        | hrd      | OK
-L | 1453004824 | 5        | consume from ays|usergroup!gig():ays|idmanager!main()
-L | 1453004824 | 5        | consumption done
-A | 1453004824 | usergroup!admin      | input    | START
-A | 1453004825 | usergroup!admin      | input    | ERROR
-L | 1453004825 | 5        | Exception:
-A | 1453004825 | usergroup!admin      | input    | OK
-A | 1453004825 | usergroup!admin      | hrd      | START
-A | 1453004825 | usergroup!admin      | hrd      | OK
-L | 1453004825 | 5        | consume from ays|usergroup!admin():ays|idmanager!main()
-L | 1453004825 | 5        | consumption done
-A | 1453004825 | datacenter!dc1       | input    | START
-A | 1453004825 | datacenter!dc1       | input    | OK
-A | 1453004825 | datacenter!dc1       | hrd      | START
-A | 1453004825 | datacenter!dc1       | hrd      | OK
-A | 1453004825 | rack!rack1           | input    | START
-A | 1453004825 | rack!rack1           | input    | ERROR
-L | 1453004825 | 5        | Exception:
-A | 1453004825 | rack!rack1           | input    | OK
-A | 1453004825 | rack!rack1           | hrd      | START
-A | 1453004825 | rack!rack1           | hrd      | OK
-L | 1453004825 | 5        | consume from ays|rack!rack1():ays|datacenter!dc1()
-L | 1453004825 | 5        | consumption done
-A | 1453004825 | node!ovh4            | input    | START
-A | 1453004826 | node!ovh4            | input    | ERROR
-L | 1453004826 | 5        | Exception:
-A | 1453004826 | node!ovh4            | input    | OK
-A | 1453004826 | node!ovh4            | hrd      | START
-A | 1453004826 | node!ovh4            | hrd      | OK
-L | 1453004826 | 5        | consume from ays|node!ovh4():ays|rack!rack1()
-L | 1453004826 | 5        | consumption done
-A | 1453004826 | mongodb!mongo1       | input    | START
-A | 1453004826 | mongodb!mongo1       | input    | OK
-A | 1453004826 | mongodb!mongo1       | hrd      | START
-A | 1453004826 | mongodb!mongo1       | hrd      | OK
-A | 1453004826 | redis!redis1         | input    | START
-A | 1453004826 | redis!redis1         | input    | OK
-A | 1453004826 | redis!redis1         | hrd      | START
-A | 1453004826 | redis!redis1         | hrd      | OK
-A | 1453004826 | redis!redis2         | input    | START
-A | 1453004826 | redis!redis2         | input    | OK
-A | 1453004826 | redis!redis2         | hrd      | START
-A | 1453004826 | redis!redis2         | hrd      | OK
-A | 1453004826 | etcd!etcd1           | input    | START
-A | 1453004826 | etcd!etcd1           | input    | OK
-A | 1453004826 | etcd!etcd1           | hrd      | START
-A | 1453004826 | etcd!etcd1           | hrd      | OK
-A | 1453004826 | etcd!etcd2           | input    | START
-A | 1453004826 | etcd!etcd2           | input    | OK
-A | 1453004826 | etcd!etcd2           | hrd      | START
-A | 1453004826 | etcd!etcd2           | hrd      | OK
-A | 1453004826 | etcd!etcd3           | input    | START
-A | 1453004826 | etcd!etcd3           | input    | OK
-A | 1453004826 | etcd!etcd3           | hrd      | START
-A | 1453004826 | etcd!etcd3           | hrd      | OK
-A | 1453004826 | myapp!test           | input    | START
-A | 1453004827 | myapp!test           | input    | ERROR
-L | 1453004827 | 5        | Exception:
-A | 1453004827 | myapp!test           | input    | OK
-A | 1453004827 | myapp!test           | hrd      | START
-A | 1453004827 | myapp!test           | hrd      | OK
-L | 1453004827 | 5        | consume from ays|myapp!test():ays|node!ovh4()
-L | 1453004827 | 5        | consumption done
+R | 1453004856 | 1        |2016/01/17 08:27:36
+A | 1453004856 | user!despiegk        | input    | START
+A | 1453004856 | idmanager!main       | input    | START
+A | 1453004856 | idmanager!main       | input    | OK
+A | 1453004856 | idmanager!main       | hrd      | START
+A | 1453004856 | idmanager!main       | hrd      | OK
+A | 1453004984 | user!despiegk        | input    | ERROR
+L | 1453004984 | 5        | Exception:name 'p' is not defined
+A | 1453004984 | user!despiegk        | input    | OK
+A | 1453004984 | user!despiegk        | hrd      | START
+A | 1453004984 | user!despiegk        | hrd      | OK
+L | 1453004984 | 5        | consume from ays|user!despiegk():ays|idmanager!main()
+L | 1453004984 | 5        | consumption done
+A | 1453004984 | user!pol             | input    | START
+A | 1453004986 | user!pol             | input    | ERROR
+L | 1453004986 | 5        | Exception:name 'p' is not defined
+A | 1453004986 | user!pol             | input    | OK
+A | 1453004986 | user!pol             | hrd      | START
+A | 1453004986 | user!pol             | hrd      | OK
+L | 1453004986 | 5        | consume from ays|user!pol():ays|idmanager!main()
+L | 1453004986 | 5        | consumption done
+A | 1453004986 | user!jan             | input    | START
+A | 1453004987 | user!jan             | input    | ERROR
+L | 1453004987 | 5        | Exception:name 'p' is not defined
+A | 1453004987 | user!jan             | input    | OK
+A | 1453004987 | user!jan             | hrd      | START
+A | 1453004987 | user!jan             | hrd      | OK
+L | 1453004987 | 5        | consume from ays|user!jan():ays|idmanager!main()
+L | 1453004987 | 5        | consumption done
+A | 1453004987 | user!jan2            | input    | START
+A | 1453004987 | user!jan2            | input    | ERROR
+L | 1453004987 | 5        | Exception:name 'p' is not defined
+A | 1453004987 | user!jan2            | input    | OK
+A | 1453004987 | user!jan2            | hrd      | START
+A | 1453004987 | user!jan2            | hrd      | OK
+L | 1453004987 | 5        | consume from ays|user!jan2():ays|idmanager!main()
+L | 1453004987 | 5        | consumption done
+A | 1453004987 | usergroup!gig        | input    | START
+A | 1453004989 | usergroup!gig        | input    | ERROR
+L | 1453004989 | 5        | Exception:name 'p' is not defined
+A | 1453004989 | usergroup!gig        | input    | OK
+A | 1453004989 | usergroup!gig        | hrd      | START
+A | 1453004989 | usergroup!gig        | hrd      | OK
+L | 1453004989 | 5        | consume from ays|usergroup!gig():ays|idmanager!main()
+L | 1453004989 | 5        | consumption done
+A | 1453004989 | usergroup!admin      | input    | START
+A | 1453004990 | usergroup!admin      | input    | ERROR
+L | 1453004990 | 5        | Exception:name 'p' is not defined
+A | 1453004990 | usergroup!admin      | input    | OK
+A | 1453004990 | usergroup!admin      | hrd      | START
+A | 1453004990 | usergroup!admin      | hrd      | OK
+L | 1453004990 | 5        | consume from ays|usergroup!admin():ays|idmanager!main()
+L | 1453004990 | 5        | consumption done
+A | 1453004990 | datacenter!dc1       | input    | START
+A | 1453004990 | datacenter!dc1       | input    | OK
+A | 1453004990 | datacenter!dc1       | hrd      | START
+A | 1453004990 | datacenter!dc1       | hrd      | OK
+A | 1453004990 | rack!rack1           | input    | START
+A | 1453004990 | rack!rack1           | input    | ERROR
+L | 1453004990 | 5        | Exception:name 'p' is not defined
+A | 1453004990 | rack!rack1           | input    | OK
+A | 1453004990 | rack!rack1           | hrd      | START
+A | 1453004990 | rack!rack1           | hrd      | OK
+L | 1453004990 | 5        | consume from ays|rack!rack1():ays|datacenter!dc1()
+L | 1453004990 | 5        | consumption done
+A | 1453004990 | node!ovh4            | input    | START
+A | 1453004991 | node!ovh4            | input    | ERROR
+L | 1453004991 | 5        | Exception:name 'p' is not defined
+A | 1453004991 | node!ovh4            | input    | OK
+A | 1453004991 | node!ovh4            | hrd      | START
+A | 1453004991 | node!ovh4            | hrd      | OK
+L | 1453004991 | 5        | consume from ays|node!ovh4():ays|rack!rack1()
+L | 1453004991 | 5        | consumption done
+A | 1453004991 | mongodb!mongo1       | input    | START
+A | 1453004991 | mongodb!mongo1       | input    | OK
+A | 1453004991 | mongodb!mongo1       | hrd      | START
+A | 1453004991 | mongodb!mongo1       | hrd      | OK
+A | 1453004991 | redis!redis1         | input    | START
+A | 1453004991 | redis!redis1         | input    | OK
+A | 1453004991 | redis!redis1         | hrd      | START
+A | 1453004991 | redis!redis1         | hrd      | OK
+A | 1453004991 | redis!redis2         | input    | START
+A | 1453004991 | redis!redis2         | input    | OK
+A | 1453004991 | redis!redis2         | hrd      | START
+A | 1453004991 | redis!redis2         | hrd      | OK
+A | 1453004991 | etcd!etcd1           | input    | START
+A | 1453004991 | etcd!etcd1           | input    | OK
+A | 1453004991 | etcd!etcd1           | hrd      | START
+A | 1453004991 | etcd!etcd1           | hrd      | OK
+A | 1453004991 | etcd!etcd2           | input    | START
+A | 1453004991 | etcd!etcd2           | input    | OK
+A | 1453004991 | etcd!etcd2           | hrd      | START
+A | 1453004991 | etcd!etcd2           | hrd      | OK
+A | 1453004991 | etcd!etcd3           | input    | START
+A | 1453004991 | etcd!etcd3           | input    | OK
+A | 1453004991 | etcd!etcd3           | hrd      | START
+A | 1453004991 | etcd!etcd3           | hrd      | OK
+A | 1453004991 | myapp!test           | input    | START
+A | 1453004994 | myapp!test           | input    | ERROR
+L | 1453004994 | 5        | Exception:name 'p' is not defined
+A | 1453004994 | myapp!test           | input    | OK
+A | 1453004994 | myapp!test           | hrd      | START
+A | 1453004994 | myapp!test           | hrd      | OK
+L | 1453004994 | 5        | consume from ays|myapp!test():ays|node!ovh4()
+L | 1453004994 | 5        | consumption done

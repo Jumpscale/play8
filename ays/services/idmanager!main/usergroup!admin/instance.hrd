@@ -14,8 +14,8 @@ producer.ays|idmanager!main    =
     'ays|idmanager!main',
 
 producer.ays|user!jan          = 
-    'ays|user!despiegk',
     'ays|user!jan',
+    'ays|user!despiegk',
     'ays|user!pol',
 
 producer.ays|usergroup!gig     = 
