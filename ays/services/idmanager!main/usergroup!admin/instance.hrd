@@ -10,6 +10,17 @@ members                        =
 
 parent                         = 'idmanager!main'
 
+producer.idmanager             = 
+    'idmanager!main',
+
+producer.user                  = 
+    'user!despiegk',
+    'user!pol',
+    'user!jan',
+
+producer.usergroup             = 
+    'usergroup!gig',
+
 service.domain                 = 'ays'
 service.name                   = 'usergroup'
 service.version                = 
