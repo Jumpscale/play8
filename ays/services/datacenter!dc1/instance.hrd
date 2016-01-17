@@ -1,0 +1,9 @@
+description                    = 'a descriptionn'
+
+location                       = 'alocation'
+
+newvar                         = 'ddd'
+
+service.domain                 = 'ays'
+service.name                   = 'datacenter'
+service.version                = 
