@@ -14,14 +14,6 @@ node                           = 'ovh4'
 
 parent                         = 'node!ovh4'
 
-producer.etcd                  = 
-    'etcd!etcd1',
-    'etcd!etcd2',
-    'etcd!etcd3',
-
-producer.mongodb               = 
-    'mongodb!mongo1',
-
 service.domain                 = 'ays'
 service.name                   = 'myapp'
 service.version                = 

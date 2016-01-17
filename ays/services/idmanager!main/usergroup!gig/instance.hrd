@@ -8,10 +8,6 @@ members                        =
 
 parent                         = 'idmanager!main'
 
-producer.user                  = 
-    'user!despiegk',
-    'user!jan',
-
 service.domain                 = 'ays'
 service.name                   = 'usergroup'
 service.version                = 
