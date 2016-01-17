@@ -16,9 +16,9 @@ node                           = 'ovh4'
 parent                         = 'ays|node!ovh4'
 
 producer.ays|etcd!etcd3        = 
-    'ays|etcd!etcd3',
     'ays|etcd!etcd1',
     'ays|etcd!etcd2',
+    'ays|etcd!etcd3',
 
 producer.ays|mongodb!mongo1    = 
     'ays|mongodb!mongo1',

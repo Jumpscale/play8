@@ -1,87 +1,87 @@
-R | 1453003045 | 1        |2016/01/17 07:57:25
-A | 1453003045 | user!despiegk | input    | START
-A | 1453003045 | idmanager!main | input    | START
-A | 1453003045 | idmanager!main | input    | OK
-A | 1453003045 | idmanager!main | hrd      | START
-A | 1453003045 | idmanager!main | hrd      | OK
-A | 1453003045 | user!despiegk | input    | OK
-A | 1453003045 | user!despiegk | hrd      | START
-A | 1453003045 | user!despiegk | hrd      | OK
-L | 1453003045 | 5        | consume from ays|user!despiegk():ays|idmanager!main()
-L | 1453003045 | 5        | consumption done
-A | 1453003045 | user!pol | input    | START
-A | 1453003045 | user!pol | input    | OK
-A | 1453003045 | user!pol | hrd      | START
-A | 1453003045 | user!pol | hrd      | OK
-L | 1453003045 | 5        | consume from ays|user!pol():ays|idmanager!main()
-L | 1453003045 | 5        | consumption done
-A | 1453003045 | user!jan | input    | START
-A | 1453003045 | user!jan | input    | OK
-A | 1453003045 | user!jan | hrd      | START
-A | 1453003045 | user!jan | hrd      | OK
-L | 1453003045 | 5        | consume from ays|user!jan():ays|idmanager!main()
-L | 1453003045 | 5        | consumption done
-A | 1453003045 | user!jan2 | input    | START
-A | 1453003046 | user!jan2 | input    | OK
-A | 1453003046 | user!jan2 | hrd      | START
-A | 1453003046 | user!jan2 | hrd      | OK
-L | 1453003046 | 5        | consume from ays|user!jan2():ays|idmanager!main()
-L | 1453003046 | 5        | consumption done
-A | 1453003046 | usergroup!gig | input    | START
-A | 1453003046 | usergroup!gig | input    | OK
-A | 1453003046 | usergroup!gig | hrd      | START
-A | 1453003046 | usergroup!gig | hrd      | OK
-L | 1453003046 | 5        | consume from ays|usergroup!gig():ays|idmanager!main()
-L | 1453003046 | 5        | consumption done
-A | 1453003046 | usergroup!admin | input    | START
-A | 1453003046 | usergroup!admin | input    | OK
-A | 1453003046 | usergroup!admin | hrd      | START
-A | 1453003046 | usergroup!admin | hrd      | OK
-L | 1453003046 | 5        | consume from ays|usergroup!admin():ays|idmanager!main()
-L | 1453003046 | 5        | consumption done
-A | 1453003046 | datacenter!dc1 | input    | START
-A | 1453003046 | datacenter!dc1 | input    | OK
-A | 1453003046 | datacenter!dc1 | hrd      | START
-A | 1453003046 | datacenter!dc1 | hrd      | OK
-A | 1453003046 | rack!rack1 | input    | START
-A | 1453003046 | rack!rack1 | input    | OK
-A | 1453003046 | rack!rack1 | hrd      | START
-A | 1453003046 | rack!rack1 | hrd      | OK
-L | 1453003046 | 5        | consume from ays|rack!rack1():ays|datacenter!dc1()
-L | 1453003046 | 5        | consumption done
-A | 1453003046 | node!ovh4 | input    | START
-A | 1453003046 | node!ovh4 | input    | OK
-A | 1453003046 | node!ovh4 | hrd      | START
-A | 1453003046 | node!ovh4 | hrd      | OK
-L | 1453003046 | 5        | consume from ays|node!ovh4():ays|rack!rack1()
-L | 1453003046 | 5        | consumption done
-A | 1453003046 | mongodb!mongo1 | input    | START
-A | 1453003046 | mongodb!mongo1 | input    | OK
-A | 1453003046 | mongodb!mongo1 | hrd      | START
-A | 1453003046 | mongodb!mongo1 | hrd      | OK
-A | 1453003046 | redis!redis1 | input    | START
-A | 1453003046 | redis!redis1 | input    | OK
-A | 1453003046 | redis!redis1 | hrd      | START
-A | 1453003046 | redis!redis1 | hrd      | OK
-A | 1453003046 | redis!redis2 | input    | START
-A | 1453003046 | redis!redis2 | input    | OK
-A | 1453003046 | redis!redis2 | hrd      | START
-A | 1453003046 | redis!redis2 | hrd      | OK
-A | 1453003046 | etcd!etcd1 | input    | START
-A | 1453003046 | etcd!etcd1 | input    | OK
-A | 1453003046 | etcd!etcd1 | hrd      | START
-A | 1453003046 | etcd!etcd1 | hrd      | OK
-A | 1453003046 | etcd!etcd2 | input    | START
-A | 1453003046 | etcd!etcd2 | input    | OK
-A | 1453003046 | etcd!etcd2 | hrd      | START
-A | 1453003046 | etcd!etcd2 | hrd      | OK
-A | 1453003046 | etcd!etcd3 | input    | START
-A | 1453003046 | etcd!etcd3 | input    | OK
-A | 1453003046 | etcd!etcd3 | hrd      | START
-A | 1453003046 | etcd!etcd3 | hrd      | OK
-A | 1453003046 | myapp!test | input    | START
-A | 1453003046 | myapp!test | input    | OK
-A | 1453003046 | myapp!test | hrd      | START
-A | 1453003046 | myapp!test | hrd      | OK
-L | 1453003046 | 5        | consume from ays|myapp!test():ays|node!ovh4()
-L | 1453003046 | 5        | consumption done
+R | 1453003114 | 1        |2016/01/17 07:58:34
+A | 1453003114 | user!despiegk        | input    | START
+A | 1453003114 | idmanager!main       | input    | START
+A | 1453003114 | idmanager!main       | input    | OK
+A | 1453003114 | idmanager!main       | hrd      | START
+A | 1453003114 | idmanager!main       | hrd      | OK
+A | 1453003114 | user!despiegk        | input    | OK
+A | 1453003114 | user!despiegk        | hrd      | START
+A | 1453003114 | user!despiegk        | hrd      | OK
+L | 1453003114 | 5        | consume from ays|user!despiegk():ays|idmanager!main()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | user!pol             | input    | START
+A | 1453003114 | user!pol             | input    | OK
+A | 1453003114 | user!pol             | hrd      | START
+A | 1453003114 | user!pol             | hrd      | OK
+L | 1453003114 | 5        | consume from ays|user!pol():ays|idmanager!main()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | user!jan             | input    | START
+A | 1453003114 | user!jan             | input    | OK
+A | 1453003114 | user!jan             | hrd      | START
+A | 1453003114 | user!jan             | hrd      | OK
+L | 1453003114 | 5        | consume from ays|user!jan():ays|idmanager!main()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | user!jan2            | input    | START
+A | 1453003114 | user!jan2            | input    | OK
+A | 1453003114 | user!jan2            | hrd      | START
+A | 1453003114 | user!jan2            | hrd      | OK
+L | 1453003114 | 5        | consume from ays|user!jan2():ays|idmanager!main()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | usergroup!gig        | input    | START
+A | 1453003114 | usergroup!gig        | input    | OK
+A | 1453003114 | usergroup!gig        | hrd      | START
+A | 1453003114 | usergroup!gig        | hrd      | OK
+L | 1453003114 | 5        | consume from ays|usergroup!gig():ays|idmanager!main()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | usergroup!admin      | input    | START
+A | 1453003114 | usergroup!admin      | input    | OK
+A | 1453003114 | usergroup!admin      | hrd      | START
+A | 1453003114 | usergroup!admin      | hrd      | OK
+L | 1453003114 | 5        | consume from ays|usergroup!admin():ays|idmanager!main()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | datacenter!dc1       | input    | START
+A | 1453003114 | datacenter!dc1       | input    | OK
+A | 1453003114 | datacenter!dc1       | hrd      | START
+A | 1453003114 | datacenter!dc1       | hrd      | OK
+A | 1453003114 | rack!rack1           | input    | START
+A | 1453003114 | rack!rack1           | input    | OK
+A | 1453003114 | rack!rack1           | hrd      | START
+A | 1453003114 | rack!rack1           | hrd      | OK
+L | 1453003114 | 5        | consume from ays|rack!rack1():ays|datacenter!dc1()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | node!ovh4            | input    | START
+A | 1453003114 | node!ovh4            | input    | OK
+A | 1453003114 | node!ovh4            | hrd      | START
+A | 1453003114 | node!ovh4            | hrd      | OK
+L | 1453003114 | 5        | consume from ays|node!ovh4():ays|rack!rack1()
+L | 1453003114 | 5        | consumption done
+A | 1453003114 | mongodb!mongo1       | input    | START
+A | 1453003114 | mongodb!mongo1       | input    | OK
+A | 1453003114 | mongodb!mongo1       | hrd      | START
+A | 1453003114 | mongodb!mongo1       | hrd      | OK
+A | 1453003114 | redis!redis1         | input    | START
+A | 1453003114 | redis!redis1         | input    | OK
+A | 1453003114 | redis!redis1         | hrd      | START
+A | 1453003114 | redis!redis1         | hrd      | OK
+A | 1453003114 | redis!redis2         | input    | START
+A | 1453003114 | redis!redis2         | input    | OK
+A | 1453003114 | redis!redis2         | hrd      | START
+A | 1453003114 | redis!redis2         | hrd      | OK
+A | 1453003114 | etcd!etcd1           | input    | START
+A | 1453003114 | etcd!etcd1           | input    | OK
+A | 1453003114 | etcd!etcd1           | hrd      | START
+A | 1453003114 | etcd!etcd1           | hrd      | OK
+A | 1453003114 | etcd!etcd2           | input    | START
+A | 1453003114 | etcd!etcd2           | input    | OK
+A | 1453003114 | etcd!etcd2           | hrd      | START
+A | 1453003114 | etcd!etcd2           | hrd      | OK
+A | 1453003114 | etcd!etcd3           | input    | START
+A | 1453003114 | etcd!etcd3           | input    | OK
+A | 1453003114 | etcd!etcd3           | hrd      | START
+A | 1453003114 | etcd!etcd3           | hrd      | OK
+A | 1453003114 | myapp!test           | input    | START
+A | 1453003114 | myapp!test           | input    | OK
+A | 1453003114 | myapp!test           | hrd      | START
+A | 1453003114 | myapp!test           | hrd      | OK
+L | 1453003114 | 5        | consume from ays|myapp!test():ays|node!ovh4()
+L | 1453003114 | 5        | consumption done
