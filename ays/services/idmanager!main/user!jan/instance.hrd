@@ -12,7 +12,7 @@ mobile                         =
 
 parent                         = 'ays|idmanager!main'
 
-producer.ays|idmanager!main    =
+producer.ays|idmanager!main    = 
     'ays|idmanager!main',
 
 service.domain                 = 'ays'
