@@ -12,7 +12,7 @@ mobile                         =
     '+32475444444',
     '+20454545454',
 
-parent                         = 'ays|idmanager!main'
+parent                         = 'idmanager!main'
 
 service.domain                 = 'ays'
 service.name                   = 'user'

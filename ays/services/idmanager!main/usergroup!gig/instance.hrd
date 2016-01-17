@@ -6,11 +6,11 @@ members                        =
     'despiegk',
     'jan',
 
-parent                         = 'ays|idmanager!main'
+parent                         = 'idmanager!main'
 
 producer.user                  = 
-    'ays|user!despiegk',
-    'ays|user!jan',
+    'user!despiegk',
+    'user!jan',
 
 service.domain                 = 'ays'
 service.name                   = 'usergroup'

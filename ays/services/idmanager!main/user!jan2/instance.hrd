@@ -10,7 +10,7 @@ identity_manager               =
 mobile                         = 
     '+32475999999',
 
-parent                         = 'ays|idmanager!main'
+parent                         = 'idmanager!main'
 
 service.domain                 = 'ays'
 service.name                   = 'user'
