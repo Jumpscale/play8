@@ -12,4 +12,4 @@ class Actions(ActionsBase):
 
     def install_post(self, service_obj):
 
-        print.log("send email to customer")
+        print("send email to customer")
