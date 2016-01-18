@@ -1,0 +1,11 @@
+description                    = 'a description'
+
+location                       = 'alocation'
+
+parent                         = 'rack!rack1'
+
+rack                           = 'rack1'
+
+service.domain                 = 'ays'
+service.name                   = 'node'
+service.version                = 
