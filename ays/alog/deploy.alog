@@ -62,3 +62,4 @@ A | 1453090626 | myapp!test           | input    | START
 A | 1453090626 | myapp!test           | input    | OK
 A | 1453090626 | myapp!test           | hrd      | START
 A | 1453090626 | myapp!test           | hrd      | OK
+G | 1453090626 | init     | 2103bf4782b23430d4c58de84cc53096f2ef175a
