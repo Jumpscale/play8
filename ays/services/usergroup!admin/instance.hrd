@@ -1,0 +1,14 @@
+groups                         = 
+    'gig',
+
+identity_manager               = 
+
+members                        = ,
+
+service.domain                 = 'ays'
+service.name                   = 'usergroup'
+service.version                = 
+
+users                          = 
+    'kristof@incubaid.com',
+    'pol@incubaid.com',
