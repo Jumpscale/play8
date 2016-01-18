@@ -67,3 +67,6 @@ A | 1453086514 | myapp!test           | input    | START
 A | 1453086514 | myapp!test           | input    | OK
 A | 1453086514 | myapp!test           | hrd      | START
 A | 1453086514 | myapp!test           | hrd      | OK
+G | 1453086514 | init     | b4f049df8a43cee506c8a46292d42272440776ee
+R | 1453086603 | 2        |2016/01/18 07:10:03
+R | 1453086745 | 3        |2016/01/18 07:12:25
