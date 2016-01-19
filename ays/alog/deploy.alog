@@ -98,3 +98,20 @@ G | 1453176447 | install  | c17fa6e53ce0ea0eac85af977923de40029550c8
 G | 1453176653 | install_pre | 2d6511e1fd4e5d132a69daa417900be3836179c6
 R | 1453176653 | 3        | install    | 2016/01/19 08:10:53
 G | 1453176654 | install  | 2d6511e1fd4e5d132a69daa417900be3836179c6
+G | 1453176952 | init_pre | 4429acd3db699de5f51c0ffa5d748a2265aa295b
+A | 1453176952 | user!despiegk        | input    | START
+A | 1453176952 | user!despiegk        | input    | OK
+A | 1453176952 | user!despiegk        | hrd      | START
+A | 1453176952 | user!despiegk        | hrd      | OK
+A | 1453176952 | user!pol             | input    | START
+A | 1453176952 | user!pol             | input    | OK
+A | 1453176952 | user!pol             | hrd      | START
+A | 1453176952 | user!pol             | hrd      | OK
+A | 1453176952 | user!jan             | input    | START
+A | 1453176952 | user!jan             | input    | OK
+A | 1453176952 | user!jan             | hrd      | START
+A | 1453176952 | user!jan             | hrd      | OK
+A | 1453176952 | user!jan2            | input    | START
+A | 1453176952 | user!jan2            | input    | OK
+A | 1453176952 | user!jan2            | hrd      | START
+A | 1453176952 | user!jan2            | hrd      | OK
