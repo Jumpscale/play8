@@ -13,3 +13,6 @@ class Actions(ActionsBase):
     def install_post(self, service_obj):
 
         print("send email to customer")
+
+    def monitor(self,service_obj):
+        raise RuntimeError("fake error")
