@@ -73,3 +73,6 @@ A | 1453181706 | myapp!test           | input    | START
 A | 1453181706 | myapp!test           | input    | OK
 A | 1453181706 | myapp!test           | hrd      | START
 A | 1453181706 | myapp!test           | hrd      | OK
+G | 1453181706 | init     | 726d853b2c46c2fb02df59aa369f891b821bd259
+R | 1453181907 | 3        | init       | 2016/01/19 09:38:27
+G | 1453181907 | init     | 726d853b2c46c2fb02df59aa369f891b821bd259
