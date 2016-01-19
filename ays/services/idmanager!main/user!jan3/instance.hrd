@@ -1,0 +1,17 @@
+add2                           = 'sometjiee'
+
+email                          = 
+    'jan3@incubaid.com',
+
+expire                         = '-1'
+
+identity_manager               = 
+
+mobile                         = 
+    '+32475999999',
+
+parent                         = 'idmanager!main'
+
+service.domain                 = 'ays'
+service.name                   = 'user'
+service.version                = 
