@@ -175,3 +175,56 @@ A | 1453177545 | user!jan3            | input    | START
 A | 1453177545 | user!jan3            | input    | OK
 A | 1453177545 | user!jan3            | hrd      | START
 A | 1453177545 | user!jan3            | hrd      | OK
+G | 1453177545 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177549 | 17       | init       | 2016/01/19 08:25:49
+G | 1453177549 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177553 | 18       | init       | 2016/01/19 08:25:53
+G | 1453177553 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177553 | 19       | install    | 2016/01/19 08:25:53
+A | 1453177553 | user!jan             | install  | CHANGED
+A | 1453177553 | user!despiegk        | install  | CHANGED
+A | 1453177553 | user!pol             | install  | CHANGED
+A | 1453177553 | user!jan2            | install  | CHANGED
+A | 1453177553 | user!jan3            | install  | OK
+A | 1453177553 | user!jan             | install  | OK
+A | 1453177553 | user!despiegk        | install  | OK
+A | 1453177553 | user!pol             | install  | OK
+A | 1453177553 | user!jan2            | install  | OK
+G | 1453177553 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177554 | 20       | init       | 2016/01/19 08:25:54
+G | 1453177554 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177554 | 21       | install    | 2016/01/19 08:25:54
+G | 1453177554 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177556 | 22       | init       | 2016/01/19 08:25:56
+G | 1453177556 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177556 | 23       | install    | 2016/01/19 08:25:56
+G | 1453177556 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177640 | 24       | install    | 2016/01/19 08:27:20
+G | 1453177640 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177642 | 25       | install    | 2016/01/19 08:27:22
+G | 1453177642 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177670 | 26       | monitor    | 2016/01/19 08:27:50
+A | 1453177671 | idmanager!main       | monitor  | OK
+A | 1453177671 | etcd!etcd3           | monitor  | OK
+A | 1453177671 | redis!redis2         | monitor  | OK
+A | 1453177671 | etcd!etcd2           | monitor  | OK
+A | 1453177671 | datacenter!dc1       | monitor  | OK
+A | 1453177671 | etcd!etcd1           | monitor  | OK
+A | 1453177671 | mongodb!mongo1       | monitor  | OK
+A | 1453177671 | redis!redis1         | monitor  | OK
+A | 1453177671 | user!jan3            | monitor  | OK
+A | 1453177671 | user!jan2            | monitor  | OK
+A | 1453177671 | user!despiegk        | monitor  | OK
+A | 1453177671 | user!pol             | monitor  | OK
+A | 1453177671 | user!jan             | monitor  | OK
+A | 1453177671 | rack!rack1           | monitor  | OK
+A | 1453177671 | usergroup!gig        | monitor  | OK
+A | 1453177671 | node!ovh4            | monitor  | OK
+A | 1453177671 | usergroup!admin      | monitor  | OK
+A | 1453177671 | myapp!test           | monitor  | OK
+G | 1453177671 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453178065 | 27       | monitor    | 2016/01/19 08:34:25
+R | 1453178160 | 28       | monitor    | 2016/01/19 08:36:00
+G | 1453178161 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453178162 | 29       | monitor    | 2016/01/19 08:36:02
+G | 1453178162 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
