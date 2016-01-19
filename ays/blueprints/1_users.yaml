@@ -31,6 +31,10 @@ user_jan2:
   email:
     - "jan2@incubaid.com"
 
+user_jan3:
+  email:
+    - "jan3@incubaid.com"
+
 
 usergroup_gig:
   users:
