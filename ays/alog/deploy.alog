@@ -163,3 +163,60 @@ A | 1453182528 | user!jan4            | input    | START
 A | 1453182528 | user!jan4            | input    | OK
 A | 1453182528 | user!jan4            | hrd      | START
 A | 1453182528 | user!jan4            | hrd      | OK
+G | 1453182529 | init     | cc5b10bfb28ae6cb44c98492372696efdfa157b8
+R | 1453182529 | 7        | install    | 2016/01/19 09:48:49
+A | 1453182530 | redis!redis1         | install  | START
+A | 1453182530 | redis!redis1         | install  | OK
+A | 1453182530 | etcd!etcd1           | install  | START
+A | 1453182530 | etcd!etcd1           | install  | OK
+A | 1453182530 | etcd!etcd3           | install  | START
+A | 1453182530 | etcd!etcd3           | install  | OK
+A | 1453182530 | redis!redis2         | install  | START
+A | 1453182530 | redis!redis2         | install  | OK
+A | 1453182530 | etcd!etcd2           | install  | START
+A | 1453182530 | etcd!etcd2           | install  | OK
+A | 1453182530 | idmanager!main       | install  | OK
+A | 1453182530 | mongodb!mongo1       | install  | START
+A | 1453182530 | mongodb!mongo1       | install  | OK
+A | 1453182530 | datacenter!dc1       | install  | START
+A | 1453182530 | datacenter!dc1       | install  | OK
+A | 1453182530 | user!jan4            | install  | OK
+A | 1453182530 | user!pol             | install  | OK
+A | 1453182530 | user!jan3            | install  | OK
+A | 1453182530 | user!jan2            | install  | OK
+A | 1453182530 | user!jan             | install  | OK
+A | 1453182530 | rack!rack1           | install  | OK
+A | 1453182530 | user!despiegk        | install  | OK
+A | 1453182530 | usergroup!gig        | install  | START
+A | 1453182530 | usergroup!gig        | install  | OK
+A | 1453182530 | node!ovh4            | install  | START
+A | 1453182530 | node!ovh4            | install  | OK
+A | 1453182530 | usergroup!admin      | install  | START
+A | 1453182530 | usergroup!admin      | install  | OK
+A | 1453182530 | myapp!test           | install  | START
+A | 1453182530 | myapp!test           | install  | OK
+G | 1453182530 | install  | cc5b10bfb28ae6cb44c98492372696efdfa157b8
+R | 1453182575 | 8        | init       | 2016/01/19 09:49:35
+G | 1453182575 | init     | cc5b10bfb28ae6cb44c98492372696efdfa157b8
+R | 1453182575 | 9        | install    | 2016/01/19 09:49:35
+G | 1453182575 | install  | cc5b10bfb28ae6cb44c98492372696efdfa157b8
+R | 1453182672 | 10       | monitor    | 2016/01/19 09:51:12
+A | 1453182672 | datacenter!dc1       | monitor  | OK
+A | 1453182672 | etcd!etcd3           | monitor  | OK
+A | 1453182672 | mongodb!mongo1       | monitor  | OK
+A | 1453182672 | etcd!etcd2           | monitor  | OK
+A | 1453182672 | etcd!etcd1           | monitor  | OK
+A | 1453182672 | redis!redis1         | monitor  | OK
+A | 1453182672 | idmanager!main       | monitor  | OK
+A | 1453182672 | redis!redis2         | monitor  | OK
+A | 1453182672 | rack!rack1           | monitor  | OK
+A | 1453182672 | user!jan3            | monitor  | OK
+A | 1453182672 | user!pol             | monitor  | OK
+A | 1453182672 | user!jan4            | monitor  | OK
+A | 1453182672 | user!jan             | monitor  | OK
+A | 1453182672 | user!despiegk        | monitor  | OK
+A | 1453182672 | user!jan2            | monitor  | OK
+A | 1453182672 | usergroup!gig        | monitor  | OK
+A | 1453182672 | node!ovh4            | monitor  | ERROR
+L | 1453182672 | 5        | Exception:fake error
+G | 1453182672 | monitor  | cc5b10bfb28ae6cb44c98492372696efdfa157b8

@@ -15,4 +15,5 @@ class Actions(ActionsBase):
         print("send email to customer")
 
     def monitor(self,service_obj):
+        return
         raise RuntimeError("fake error")
