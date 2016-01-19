@@ -153,3 +153,25 @@ R | 1453177508 | 14       | init       | 2016/01/19 08:25:08
 G | 1453177508 | init     | c3e7d93d10506f014099795045530494a552b807
 R | 1453177523 | 15       | init       | 2016/01/19 08:25:23
 G | 1453177523 | init     | c3e7d93d10506f014099795045530494a552b807
+G | 1453177545 | init_pre | 91f325565da1241f3bfa6ffafe9e27c601c83841
+R | 1453177545 | 16       | init       | 2016/01/19 08:25:45
+A | 1453177545 | user!despiegk        | input    | START
+A | 1453177545 | user!despiegk        | input    | OK
+A | 1453177545 | user!despiegk        | hrd      | START
+A | 1453177545 | user!despiegk        | hrd      | OK
+A | 1453177545 | user!pol             | input    | START
+A | 1453177545 | user!pol             | input    | OK
+A | 1453177545 | user!pol             | hrd      | START
+A | 1453177545 | user!pol             | hrd      | OK
+A | 1453177545 | user!jan             | input    | START
+A | 1453177545 | user!jan             | input    | OK
+A | 1453177545 | user!jan             | hrd      | START
+A | 1453177545 | user!jan             | hrd      | OK
+A | 1453177545 | user!jan2            | input    | START
+A | 1453177545 | user!jan2            | input    | OK
+A | 1453177545 | user!jan2            | hrd      | START
+A | 1453177545 | user!jan2            | hrd      | OK
+A | 1453177545 | user!jan3            | input    | START
+A | 1453177545 | user!jan3            | input    | OK
+A | 1453177545 | user!jan3            | hrd      | START
+A | 1453177545 | user!jan3            | hrd      | OK
