@@ -63,3 +63,35 @@ A | 1453090626 | myapp!test           | input    | OK
 A | 1453090626 | myapp!test           | hrd      | START
 A | 1453090626 | myapp!test           | hrd      | OK
 G | 1453090626 | init     | 2103bf4782b23430d4c58de84cc53096f2ef175a
+R | 1453176436 | 1        | install    | 2016/01/19 08:07:16
+A | 1453176436 | etcd!etcd2           | install  | START
+A | 1453176436 | etcd!etcd2           | install  | OK
+A | 1453176436 | datacenter!dc1       | install  | START
+A | 1453176436 | datacenter!dc1       | install  | OK
+A | 1453176436 | etcd!etcd1           | install  | START
+A | 1453176436 | etcd!etcd1           | install  | OK
+A | 1453176436 | idmanager!main       | install  | OK
+A | 1453176436 | mongodb!mongo1       | install  | START
+A | 1453176436 | mongodb!mongo1       | install  | OK
+A | 1453176436 | redis!redis2         | install  | START
+A | 1453176436 | redis!redis2         | install  | OK
+A | 1453176436 | redis!redis1         | install  | START
+A | 1453176436 | redis!redis1         | install  | OK
+A | 1453176436 | etcd!etcd3           | install  | START
+A | 1453176436 | etcd!etcd3           | install  | OK
+A | 1453176436 | user!pol             | install  | OK
+A | 1453176436 | user!jan             | install  | OK
+A | 1453176436 | rack!rack1           | install  | OK
+A | 1453176436 | user!jan2            | install  | OK
+A | 1453176436 | user!despiegk        | install  | OK
+A | 1453176436 | node!ovh4            | install  | START
+A | 1453176436 | node!ovh4            | install  | OK
+A | 1453176436 | usergroup!gig        | install  | START
+A | 1453176436 | usergroup!gig        | install  | OK
+A | 1453176436 | myapp!test           | install  | START
+A | 1453176436 | myapp!test           | install  | OK
+A | 1453176436 | usergroup!admin      | install  | START
+A | 1453176436 | usergroup!admin      | install  | OK
+G | 1453176436 | install  | c17fa6e53ce0ea0eac85af977923de40029550c8
+R | 1453176447 | 2        | install    | 2016/01/19 08:07:27
+G | 1453176447 | install  | c17fa6e53ce0ea0eac85af977923de40029550c8
