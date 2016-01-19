@@ -137,3 +137,29 @@ A | 1453182242 | usergroup!gig        | doesnotexist | OK
 A | 1453182242 | myapp!test           | doesnotexist | OK
 A | 1453182242 | usergroup!admin      | doesnotexist | OK
 G | 1453182242 | doesnotexist | 628403ad63f6b6eea681175ee6322244b94e38b7
+G | 1453182528 | init_pre | 083630ceb3cbba48f1cda907c5d70aeb58349c8c
+R | 1453182528 | 6        | init       | 2016/01/19 09:48:48
+A | 1453182528 | user!despiegk        | input    | START
+A | 1453182528 | user!despiegk        | input    | OK
+A | 1453182528 | user!despiegk        | hrd      | START
+A | 1453182528 | user!despiegk        | hrd      | OK
+A | 1453182528 | user!pol             | input    | START
+A | 1453182528 | user!pol             | input    | OK
+A | 1453182528 | user!pol             | hrd      | START
+A | 1453182528 | user!pol             | hrd      | OK
+A | 1453182528 | user!jan             | input    | START
+A | 1453182528 | user!jan             | input    | OK
+A | 1453182528 | user!jan             | hrd      | START
+A | 1453182528 | user!jan             | hrd      | OK
+A | 1453182528 | user!jan2            | input    | START
+A | 1453182528 | user!jan2            | input    | OK
+A | 1453182528 | user!jan2            | hrd      | START
+A | 1453182528 | user!jan2            | hrd      | OK
+A | 1453182528 | user!jan3            | input    | START
+A | 1453182528 | user!jan3            | input    | OK
+A | 1453182528 | user!jan3            | hrd      | START
+A | 1453182528 | user!jan3            | hrd      | OK
+A | 1453182528 | user!jan4            | input    | START
+A | 1453182528 | user!jan4            | input    | OK
+A | 1453182528 | user!jan4            | hrd      | START
+A | 1453182528 | user!jan4            | hrd      | OK
