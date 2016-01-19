@@ -228,3 +228,177 @@ R | 1453178160 | 28       | monitor    | 2016/01/19 08:36:00
 G | 1453178161 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
 R | 1453178162 | 29       | monitor    | 2016/01/19 08:36:02
 G | 1453178162 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+G | 1453178444 | init_pre | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453178444 | 30       | init       | 2016/01/19 08:40:44
+A | 1453178444 | node!ovh4            | input    | START
+A | 1453178444 | node!ovh4            | input    | OK
+A | 1453178444 | node!ovh4            | hrd      | START
+A | 1453178444 | node!ovh4            | hrd      | OK
+G | 1453178444 | init     | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453178452 | 31       | monitor    | 2016/01/19 08:40:52
+A | 1453178452 | node!ovh4            | monitor  | START
+A | 1453178452 | node!ovh4            | monitor  | ERROR
+L | 1453178452 | 5        | Exception:fake error
+R | 1453178461 | 32       | monitor    | 2016/01/19 08:41:01
+A | 1453178461 | node!ovh4            | monitor  | START
+A | 1453178461 | node!ovh4            | monitor  | ERROR
+L | 1453178461 | 5        | Exception:fake error
+R | 1453178737 | 33       | monitor    | 2016/01/19 08:45:37
+R | 1453178947 | 34       | monitor    | 2016/01/19 08:49:07
+A | 1453178947 | node!ovh4            | monitor  | ERROR
+L | 1453178947 | 5        | Exception:fake error
+R | 1453178955 | 35       | monitor    | 2016/01/19 08:49:15
+A | 1453178955 | etcd!etcd2           | monitor  | OK
+A | 1453178955 | mongodb!mongo1       | monitor  | OK
+A | 1453178955 | user!despiegk        | monitor  | OK
+A | 1453178955 | rack!rack1           | monitor  | OK
+A | 1453178955 | usergroup!admin      | monitor  | OK
+A | 1453178955 | usergroup!gig        | monitor  | OK
+A | 1453178955 | etcd!etcd3           | monitor  | OK
+A | 1453178955 | redis!redis2         | monitor  | OK
+A | 1453178955 | user!jan3            | monitor  | OK
+A | 1453178955 | redis!redis1         | monitor  | OK
+A | 1453178955 | idmanager!main       | monitor  | OK
+A | 1453178955 | datacenter!dc1       | monitor  | OK
+A | 1453178955 | myapp!test           | monitor  | OK
+A | 1453178955 | node!ovh4            | monitor  | ERROR
+L | 1453178955 | 5        | Exception:fake error
+R | 1453179197 | 36       | monitor    | 2016/01/19 08:53:17
+A | 1453179197 | myapp!test           | monitor  | OK
+A | 1453179197 | user!jan3            | monitor  | OK
+A | 1453179197 | rack!rack1           | monitor  | OK
+A | 1453179198 | user!despiegk        | monitor  | OK
+A | 1453179198 | redis!redis1         | monitor  | OK
+A | 1453179198 | etcd!etcd2           | monitor  | OK
+A | 1453179198 | user!jan2            | monitor  | OK
+A | 1453179198 | redis!redis2         | monitor  | OK
+A | 1453179198 | datacenter!dc1       | monitor  | OK
+A | 1453179198 | etcd!etcd1           | monitor  | OK
+A | 1453179198 | etcd!etcd3           | monitor  | OK
+A | 1453179198 | node!ovh4            | monitor  | ERROR
+L | 1453179198 | 5        | Exception:fake error
+A | 1453179198 | usergroup!admin      | monitor  | OK
+A | 1453179198 | user!pol             | monitor  | OK
+A | 1453179198 | user!jan             | monitor  | OK
+A | 1453179198 | idmanager!main       | monitor  | OK
+A | 1453179198 | mongodb!mongo1       | monitor  | OK
+A | 1453179198 | usergroup!gig        | monitor  | OK
+G | 1453179198 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179225 | 37       | monitor    | 2016/01/19 08:53:45
+A | 1453179225 | etcd!etcd3           | monitor  | OK
+A | 1453179225 | user!despiegk        | monitor  | OK
+A | 1453179225 | etcd!etcd2           | monitor  | OK
+A | 1453179225 | node!ovh4            | monitor  | ERROR
+L | 1453179225 | 5        | Exception:fake error
+A | 1453179225 | idmanager!main       | monitor  | OK
+A | 1453179225 | usergroup!admin      | monitor  | OK
+A | 1453179225 | user!jan             | monitor  | OK
+A | 1453179225 | etcd!etcd1           | monitor  | OK
+A | 1453179225 | usergroup!gig        | monitor  | OK
+A | 1453179225 | user!pol             | monitor  | OK
+A | 1453179225 | rack!rack1           | monitor  | OK
+A | 1453179225 | datacenter!dc1       | monitor  | OK
+A | 1453179225 | redis!redis2         | monitor  | OK
+A | 1453179225 | user!jan2            | monitor  | OK
+A | 1453179225 | mongodb!mongo1       | monitor  | OK
+A | 1453179225 | myapp!test           | monitor  | OK
+A | 1453179225 | redis!redis1         | monitor  | OK
+A | 1453179225 | user!jan3            | monitor  | OK
+G | 1453179225 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179269 | 38       | monitor    | 2016/01/19 08:54:29
+A | 1453179269 | user!jan3            | monitor  | OK
+A | 1453179269 | etcd!etcd2           | monitor  | OK
+A | 1453179269 | myapp!test           | monitor  | OK
+A | 1453179269 | etcd!etcd3           | monitor  | OK
+A | 1453179269 | usergroup!admin      | monitor  | OK
+A | 1453179269 | user!jan2            | monitor  | OK
+A | 1453179269 | user!despiegk        | monitor  | OK
+A | 1453179269 | node!ovh4            | monitor  | ERROR
+L | 1453179269 | 5        | Exception:fake error
+A | 1453179336 | idmanager!main       | monitor  | OK
+A | 1453179336 | redis!redis1         | monitor  | OK
+A | 1453179336 | user!pol             | monitor  | OK
+A | 1453179336 | etcd!etcd1           | monitor  | OK
+A | 1453179336 | mongodb!mongo1       | monitor  | OK
+A | 1453179336 | user!jan             | monitor  | OK
+A | 1453179336 | datacenter!dc1       | monitor  | OK
+A | 1453179336 | redis!redis2         | monitor  | OK
+A | 1453179336 | usergroup!gig        | monitor  | OK
+A | 1453179336 | rack!rack1           | monitor  | OK
+G | 1453179336 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179337 | 39       | monitor    | 2016/01/19 08:55:37
+A | 1453179337 | redis!redis1         | monitor  | OK
+A | 1453179337 | etcd!etcd1           | monitor  | OK
+A | 1453179337 | datacenter!dc1       | monitor  | OK
+A | 1453179337 | etcd!etcd3           | monitor  | OK
+A | 1453179337 | mongodb!mongo1       | monitor  | OK
+A | 1453179337 | redis!redis2         | monitor  | OK
+A | 1453179337 | idmanager!main       | monitor  | OK
+A | 1453179337 | etcd!etcd2           | monitor  | OK
+A | 1453179337 | user!jan             | monitor  | OK
+A | 1453179337 | user!pol             | monitor  | OK
+A | 1453179337 | user!despiegk        | monitor  | OK
+A | 1453179337 | user!jan2            | monitor  | OK
+A | 1453179337 | user!jan3            | monitor  | OK
+A | 1453179337 | rack!rack1           | monitor  | OK
+A | 1453179337 | node!ovh4            | monitor  | ERROR
+L | 1453179337 | 5        | Exception:fake error
+A | 1453179353 | usergroup!gig        | monitor  | OK
+G | 1453179353 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179362 | 40       | monitor    | 2016/01/19 08:56:02
+A | 1453179362 | idmanager!main       | monitor  | OK
+A | 1453179362 | mongodb!mongo1       | monitor  | OK
+A | 1453179362 | etcd!etcd1           | monitor  | OK
+A | 1453179362 | redis!redis1         | monitor  | OK
+A | 1453179362 | datacenter!dc1       | monitor  | OK
+A | 1453179362 | etcd!etcd2           | monitor  | OK
+A | 1453179362 | etcd!etcd3           | monitor  | OK
+A | 1453179362 | redis!redis2         | monitor  | OK
+A | 1453179362 | rack!rack1           | monitor  | OK
+A | 1453179362 | user!jan             | monitor  | OK
+A | 1453179362 | user!jan3            | monitor  | OK
+A | 1453179362 | user!despiegk        | monitor  | OK
+A | 1453179362 | user!pol             | monitor  | OK
+A | 1453179362 | user!jan2            | monitor  | OK
+A | 1453179362 | usergroup!gig        | monitor  | OK
+A | 1453179362 | node!ovh4            | monitor  | ERROR
+L | 1453179362 | 5        | Exception:fake error
+G | 1453179362 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179373 | 41       | monitor    | 2016/01/19 08:56:13
+A | 1453179373 | datacenter!dc1       | monitor  | OK
+A | 1453179373 | mongodb!mongo1       | monitor  | OK
+A | 1453179373 | etcd!etcd2           | monitor  | OK
+A | 1453179373 | etcd!etcd3           | monitor  | OK
+A | 1453179373 | redis!redis2         | monitor  | OK
+A | 1453179373 | etcd!etcd1           | monitor  | OK
+A | 1453179373 | redis!redis1         | monitor  | OK
+A | 1453179373 | idmanager!main       | monitor  | OK
+A | 1453179373 | user!jan2            | monitor  | OK
+A | 1453179373 | user!jan3            | monitor  | OK
+A | 1453179373 | user!despiegk        | monitor  | OK
+A | 1453179373 | user!jan             | monitor  | OK
+A | 1453179373 | rack!rack1           | monitor  | OK
+A | 1453179373 | user!pol             | monitor  | OK
+A | 1453179373 | usergroup!gig        | monitor  | OK
+A | 1453179373 | node!ovh4            | monitor  | ERROR
+L | 1453179373 | 5        | Exception:fake error
+G | 1453179373 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179394 | 42       | monitor    | 2016/01/19 08:56:34
+A | 1453179394 | idmanager!main       | monitor  | OK
+A | 1453179394 | datacenter!dc1       | monitor  | OK
+A | 1453179394 | etcd!etcd2           | monitor  | OK
+A | 1453179394 | redis!redis2         | monitor  | OK
+A | 1453179394 | redis!redis1         | monitor  | OK
+A | 1453179394 | etcd!etcd1           | monitor  | OK
+A | 1453179394 | mongodb!mongo1       | monitor  | OK
+A | 1453179394 | etcd!etcd3           | monitor  | OK
+A | 1453179394 | user!jan3            | monitor  | OK
+A | 1453179394 | rack!rack1           | monitor  | OK
+A | 1453179394 | user!pol             | monitor  | OK
+A | 1453179394 | user!jan2            | monitor  | OK
+A | 1453179394 | user!jan             | monitor  | OK
+A | 1453179394 | user!despiegk        | monitor  | OK
+A | 1453179394 | usergroup!gig        | monitor  | OK
+A | 1453179394 | node!ovh4            | monitor  | ERROR
+L | 1453179394 | 5        | Exception:fake error
+G | 1453179394 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
