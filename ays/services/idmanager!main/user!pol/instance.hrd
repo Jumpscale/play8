@@ -9,8 +9,7 @@ add3                           = 'sometjiee'
 email                          =
     'pol@incubaid.com',
 
-expire                         =
-20:11:2018
+expire                         = 20:11:2018
 
 identity_manager               = 
 

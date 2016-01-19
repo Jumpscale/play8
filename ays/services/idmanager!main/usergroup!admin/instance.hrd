@@ -14,9 +14,9 @@ producer.idmanager             =
     'idmanager!main',
 
 producer.user                  =
-    'user!pol',
     'user!jan',
     'user!despiegk',
+    'user!pol',
 
 producer.usergroup             =
     'usergroup!gig',
