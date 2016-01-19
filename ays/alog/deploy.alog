@@ -1,0 +1,404 @@
+A | 1453090625 | user!despiegk        | input    | START
+A | 1453090625 | user!despiegk        | input    | OK
+A | 1453090625 | user!despiegk        | hrd      | START
+A | 1453090625 | user!despiegk        | hrd      | OK
+A | 1453090625 | user!pol             | input    | START
+A | 1453090625 | user!pol             | input    | OK
+A | 1453090625 | user!pol             | hrd      | START
+A | 1453090625 | user!pol             | hrd      | OK
+A | 1453090625 | user!jan             | input    | START
+A | 1453090625 | user!jan             | input    | OK
+A | 1453090626 | user!jan             | hrd      | START
+A | 1453090626 | user!jan             | hrd      | OK
+A | 1453090626 | user!jan2            | input    | START
+A | 1453090626 | user!jan2            | input    | OK
+A | 1453090626 | user!jan2            | hrd      | START
+A | 1453090626 | user!jan2            | hrd      | OK
+A | 1453090626 | usergroup!gig        | input    | START
+A | 1453090626 | usergroup!gig        | input    | OK
+A | 1453090626 | usergroup!gig        | hrd      | START
+A | 1453090626 | usergroup!gig        | hrd      | OK
+A | 1453090626 | usergroup!admin      | input    | START
+A | 1453090626 | usergroup!admin      | input    | OK
+A | 1453090626 | usergroup!admin      | hrd      | START
+A | 1453090626 | usergroup!admin      | hrd      | OK
+A | 1453090626 | datacenter!dc1       | input    | START
+A | 1453090626 | datacenter!dc1       | input    | OK
+A | 1453090626 | datacenter!dc1       | hrd      | START
+A | 1453090626 | datacenter!dc1       | hrd      | OK
+A | 1453090626 | rack!rack1           | input    | START
+A | 1453090626 | rack!rack1           | input    | OK
+A | 1453090626 | rack!rack1           | hrd      | START
+A | 1453090626 | rack!rack1           | hrd      | OK
+A | 1453090626 | node!ovh4            | input    | START
+A | 1453090626 | node!ovh4            | input    | OK
+A | 1453090626 | node!ovh4            | hrd      | START
+A | 1453090626 | node!ovh4            | hrd      | OK
+A | 1453090626 | mongodb!mongo1       | input    | START
+A | 1453090626 | mongodb!mongo1       | input    | OK
+A | 1453090626 | mongodb!mongo1       | hrd      | START
+A | 1453090626 | mongodb!mongo1       | hrd      | OK
+A | 1453090626 | redis!redis1         | input    | START
+A | 1453090626 | redis!redis1         | input    | OK
+A | 1453090626 | redis!redis1         | hrd      | START
+A | 1453090626 | redis!redis1         | hrd      | OK
+A | 1453090626 | redis!redis2         | input    | START
+A | 1453090626 | redis!redis2         | input    | OK
+A | 1453090626 | redis!redis2         | hrd      | START
+A | 1453090626 | redis!redis2         | hrd      | OK
+A | 1453090626 | etcd!etcd1           | input    | START
+A | 1453090626 | etcd!etcd1           | input    | OK
+A | 1453090626 | etcd!etcd1           | hrd      | START
+A | 1453090626 | etcd!etcd1           | hrd      | OK
+A | 1453090626 | etcd!etcd2           | input    | START
+A | 1453090626 | etcd!etcd2           | input    | OK
+A | 1453090626 | etcd!etcd2           | hrd      | START
+A | 1453090626 | etcd!etcd2           | hrd      | OK
+A | 1453090626 | etcd!etcd3           | input    | START
+A | 1453090626 | etcd!etcd3           | input    | OK
+A | 1453090626 | etcd!etcd3           | hrd      | START
+A | 1453090626 | etcd!etcd3           | hrd      | OK
+A | 1453090626 | myapp!test           | input    | START
+A | 1453090626 | myapp!test           | input    | OK
+A | 1453090626 | myapp!test           | hrd      | START
+A | 1453090626 | myapp!test           | hrd      | OK
+G | 1453090626 | init     | 2103bf4782b23430d4c58de84cc53096f2ef175a
+R | 1453176436 | 1        | install    | 2016/01/19 08:07:16
+A | 1453176436 | etcd!etcd2           | install  | START
+A | 1453176436 | etcd!etcd2           | install  | OK
+A | 1453176436 | datacenter!dc1       | install  | START
+A | 1453176436 | datacenter!dc1       | install  | OK
+A | 1453176436 | etcd!etcd1           | install  | START
+A | 1453176436 | etcd!etcd1           | install  | OK
+A | 1453176436 | idmanager!main       | install  | OK
+A | 1453176436 | mongodb!mongo1       | install  | START
+A | 1453176436 | mongodb!mongo1       | install  | OK
+A | 1453176436 | redis!redis2         | install  | START
+A | 1453176436 | redis!redis2         | install  | OK
+A | 1453176436 | redis!redis1         | install  | START
+A | 1453176436 | redis!redis1         | install  | OK
+A | 1453176436 | etcd!etcd3           | install  | START
+A | 1453176436 | etcd!etcd3           | install  | OK
+A | 1453176436 | user!pol             | install  | OK
+A | 1453176436 | user!jan             | install  | OK
+A | 1453176436 | rack!rack1           | install  | OK
+A | 1453176436 | user!jan2            | install  | OK
+A | 1453176436 | user!despiegk        | install  | OK
+A | 1453176436 | node!ovh4            | install  | START
+A | 1453176436 | node!ovh4            | install  | OK
+A | 1453176436 | usergroup!gig        | install  | START
+A | 1453176436 | usergroup!gig        | install  | OK
+A | 1453176436 | myapp!test           | install  | START
+A | 1453176436 | myapp!test           | install  | OK
+A | 1453176436 | usergroup!admin      | install  | START
+A | 1453176436 | usergroup!admin      | install  | OK
+G | 1453176436 | install  | c17fa6e53ce0ea0eac85af977923de40029550c8
+R | 1453176447 | 2        | install    | 2016/01/19 08:07:27
+G | 1453176447 | install  | c17fa6e53ce0ea0eac85af977923de40029550c8
+G | 1453176653 | install_pre | 2d6511e1fd4e5d132a69daa417900be3836179c6
+R | 1453176653 | 3        | install    | 2016/01/19 08:10:53
+G | 1453176654 | install  | 2d6511e1fd4e5d132a69daa417900be3836179c6
+G | 1453176952 | init_pre | 4429acd3db699de5f51c0ffa5d748a2265aa295b
+A | 1453176952 | user!despiegk        | input    | START
+A | 1453176952 | user!despiegk        | input    | OK
+A | 1453176952 | user!despiegk        | hrd      | START
+A | 1453176952 | user!despiegk        | hrd      | OK
+A | 1453176952 | user!pol             | input    | START
+A | 1453176952 | user!pol             | input    | OK
+A | 1453176952 | user!pol             | hrd      | START
+A | 1453176952 | user!pol             | hrd      | OK
+A | 1453176952 | user!jan             | input    | START
+A | 1453176952 | user!jan             | input    | OK
+A | 1453176952 | user!jan             | hrd      | START
+A | 1453176952 | user!jan             | hrd      | OK
+A | 1453176952 | user!jan2            | input    | START
+A | 1453176952 | user!jan2            | input    | OK
+A | 1453176952 | user!jan2            | hrd      | START
+A | 1453176952 | user!jan2            | hrd      | OK
+G | 1453176952 | init     | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177033 | 4        | install    | 2016/01/19 08:17:13
+A | 1453177033 | user!pol             | install  | CHANGED
+A | 1453177033 | user!jan             | install  | CHANGED
+A | 1453177033 | user!jan2            | install  | CHANGED
+A | 1453177033 | user!despiegk        | install  | CHANGED
+A | 1453177033 | user!pol             | install  | OK
+A | 1453177033 | user!jan             | install  | OK
+A | 1453177033 | user!jan2            | install  | OK
+A | 1453177033 | user!despiegk        | install  | OK
+G | 1453177033 | install  | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177257 | 5        | init       | 2016/01/19 08:20:57
+G | 1453177257 | init     | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177257 | 6        | install    | 2016/01/19 08:20:57
+G | 1453177257 | install  | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177259 | 7        | init       | 2016/01/19 08:20:59
+G | 1453177259 | init     | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177259 | 8        | install    | 2016/01/19 08:20:59
+G | 1453177259 | install  | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177260 | 9        | init       | 2016/01/19 08:21:00
+G | 1453177260 | init     | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177260 | 10       | install    | 2016/01/19 08:21:00
+G | 1453177260 | install  | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177377 | 11       | init       | 2016/01/19 08:22:57
+G | 1453177378 | init     | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+R | 1453177390 | 12       | init       | 2016/01/19 08:23:10
+G | 1453177390 | init     | bf2a9b6799e2e72c8d4f6a60a05d4a5d3af9796a
+G | 1453177506 | init_pre | f3e66a2b7511eea3dccb16a6aa1bb62696d860d6
+R | 1453177506 | 13       | init       | 2016/01/19 08:25:06
+A | 1453177506 | user!jan3            | input    | START
+A | 1453177506 | user!jan3            | input    | OK
+A | 1453177506 | user!jan3            | hrd      | START
+A | 1453177506 | user!jan3            | hrd      | OK
+G | 1453177506 | init     | c3e7d93d10506f014099795045530494a552b807
+R | 1453177508 | 14       | init       | 2016/01/19 08:25:08
+G | 1453177508 | init     | c3e7d93d10506f014099795045530494a552b807
+R | 1453177523 | 15       | init       | 2016/01/19 08:25:23
+G | 1453177523 | init     | c3e7d93d10506f014099795045530494a552b807
+G | 1453177545 | init_pre | 91f325565da1241f3bfa6ffafe9e27c601c83841
+R | 1453177545 | 16       | init       | 2016/01/19 08:25:45
+A | 1453177545 | user!despiegk        | input    | START
+A | 1453177545 | user!despiegk        | input    | OK
+A | 1453177545 | user!despiegk        | hrd      | START
+A | 1453177545 | user!despiegk        | hrd      | OK
+A | 1453177545 | user!pol             | input    | START
+A | 1453177545 | user!pol             | input    | OK
+A | 1453177545 | user!pol             | hrd      | START
+A | 1453177545 | user!pol             | hrd      | OK
+A | 1453177545 | user!jan             | input    | START
+A | 1453177545 | user!jan             | input    | OK
+A | 1453177545 | user!jan             | hrd      | START
+A | 1453177545 | user!jan             | hrd      | OK
+A | 1453177545 | user!jan2            | input    | START
+A | 1453177545 | user!jan2            | input    | OK
+A | 1453177545 | user!jan2            | hrd      | START
+A | 1453177545 | user!jan2            | hrd      | OK
+A | 1453177545 | user!jan3            | input    | START
+A | 1453177545 | user!jan3            | input    | OK
+A | 1453177545 | user!jan3            | hrd      | START
+A | 1453177545 | user!jan3            | hrd      | OK
+G | 1453177545 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177549 | 17       | init       | 2016/01/19 08:25:49
+G | 1453177549 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177553 | 18       | init       | 2016/01/19 08:25:53
+G | 1453177553 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177553 | 19       | install    | 2016/01/19 08:25:53
+A | 1453177553 | user!jan             | install  | CHANGED
+A | 1453177553 | user!despiegk        | install  | CHANGED
+A | 1453177553 | user!pol             | install  | CHANGED
+A | 1453177553 | user!jan2            | install  | CHANGED
+A | 1453177553 | user!jan3            | install  | OK
+A | 1453177553 | user!jan             | install  | OK
+A | 1453177553 | user!despiegk        | install  | OK
+A | 1453177553 | user!pol             | install  | OK
+A | 1453177553 | user!jan2            | install  | OK
+G | 1453177553 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177554 | 20       | init       | 2016/01/19 08:25:54
+G | 1453177554 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177554 | 21       | install    | 2016/01/19 08:25:54
+G | 1453177554 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177556 | 22       | init       | 2016/01/19 08:25:56
+G | 1453177556 | init     | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177556 | 23       | install    | 2016/01/19 08:25:56
+G | 1453177556 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177640 | 24       | install    | 2016/01/19 08:27:20
+G | 1453177640 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177642 | 25       | install    | 2016/01/19 08:27:22
+G | 1453177642 | install  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453177670 | 26       | monitor    | 2016/01/19 08:27:50
+A | 1453177671 | idmanager!main       | monitor  | OK
+A | 1453177671 | etcd!etcd3           | monitor  | OK
+A | 1453177671 | redis!redis2         | monitor  | OK
+A | 1453177671 | etcd!etcd2           | monitor  | OK
+A | 1453177671 | datacenter!dc1       | monitor  | OK
+A | 1453177671 | etcd!etcd1           | monitor  | OK
+A | 1453177671 | mongodb!mongo1       | monitor  | OK
+A | 1453177671 | redis!redis1         | monitor  | OK
+A | 1453177671 | user!jan3            | monitor  | OK
+A | 1453177671 | user!jan2            | monitor  | OK
+A | 1453177671 | user!despiegk        | monitor  | OK
+A | 1453177671 | user!pol             | monitor  | OK
+A | 1453177671 | user!jan             | monitor  | OK
+A | 1453177671 | rack!rack1           | monitor  | OK
+A | 1453177671 | usergroup!gig        | monitor  | OK
+A | 1453177671 | node!ovh4            | monitor  | OK
+A | 1453177671 | usergroup!admin      | monitor  | OK
+A | 1453177671 | myapp!test           | monitor  | OK
+G | 1453177671 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453178065 | 27       | monitor    | 2016/01/19 08:34:25
+R | 1453178160 | 28       | monitor    | 2016/01/19 08:36:00
+G | 1453178161 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+R | 1453178162 | 29       | monitor    | 2016/01/19 08:36:02
+G | 1453178162 | monitor  | b8b74089e8b4523318c1293a5cc99f5f769774e2
+G | 1453178444 | init_pre | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453178444 | 30       | init       | 2016/01/19 08:40:44
+A | 1453178444 | node!ovh4            | input    | START
+A | 1453178444 | node!ovh4            | input    | OK
+A | 1453178444 | node!ovh4            | hrd      | START
+A | 1453178444 | node!ovh4            | hrd      | OK
+G | 1453178444 | init     | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453178452 | 31       | monitor    | 2016/01/19 08:40:52
+A | 1453178452 | node!ovh4            | monitor  | START
+A | 1453178452 | node!ovh4            | monitor  | ERROR
+L | 1453178452 | 5        | Exception:fake error
+R | 1453178461 | 32       | monitor    | 2016/01/19 08:41:01
+A | 1453178461 | node!ovh4            | monitor  | START
+A | 1453178461 | node!ovh4            | monitor  | ERROR
+L | 1453178461 | 5        | Exception:fake error
+R | 1453178737 | 33       | monitor    | 2016/01/19 08:45:37
+R | 1453178947 | 34       | monitor    | 2016/01/19 08:49:07
+A | 1453178947 | node!ovh4            | monitor  | ERROR
+L | 1453178947 | 5        | Exception:fake error
+R | 1453178955 | 35       | monitor    | 2016/01/19 08:49:15
+A | 1453178955 | etcd!etcd2           | monitor  | OK
+A | 1453178955 | mongodb!mongo1       | monitor  | OK
+A | 1453178955 | user!despiegk        | monitor  | OK
+A | 1453178955 | rack!rack1           | monitor  | OK
+A | 1453178955 | usergroup!admin      | monitor  | OK
+A | 1453178955 | usergroup!gig        | monitor  | OK
+A | 1453178955 | etcd!etcd3           | monitor  | OK
+A | 1453178955 | redis!redis2         | monitor  | OK
+A | 1453178955 | user!jan3            | monitor  | OK
+A | 1453178955 | redis!redis1         | monitor  | OK
+A | 1453178955 | idmanager!main       | monitor  | OK
+A | 1453178955 | datacenter!dc1       | monitor  | OK
+A | 1453178955 | myapp!test           | monitor  | OK
+A | 1453178955 | node!ovh4            | monitor  | ERROR
+L | 1453178955 | 5        | Exception:fake error
+R | 1453179197 | 36       | monitor    | 2016/01/19 08:53:17
+A | 1453179197 | myapp!test           | monitor  | OK
+A | 1453179197 | user!jan3            | monitor  | OK
+A | 1453179197 | rack!rack1           | monitor  | OK
+A | 1453179198 | user!despiegk        | monitor  | OK
+A | 1453179198 | redis!redis1         | monitor  | OK
+A | 1453179198 | etcd!etcd2           | monitor  | OK
+A | 1453179198 | user!jan2            | monitor  | OK
+A | 1453179198 | redis!redis2         | monitor  | OK
+A | 1453179198 | datacenter!dc1       | monitor  | OK
+A | 1453179198 | etcd!etcd1           | monitor  | OK
+A | 1453179198 | etcd!etcd3           | monitor  | OK
+A | 1453179198 | node!ovh4            | monitor  | ERROR
+L | 1453179198 | 5        | Exception:fake error
+A | 1453179198 | usergroup!admin      | monitor  | OK
+A | 1453179198 | user!pol             | monitor  | OK
+A | 1453179198 | user!jan             | monitor  | OK
+A | 1453179198 | idmanager!main       | monitor  | OK
+A | 1453179198 | mongodb!mongo1       | monitor  | OK
+A | 1453179198 | usergroup!gig        | monitor  | OK
+G | 1453179198 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179225 | 37       | monitor    | 2016/01/19 08:53:45
+A | 1453179225 | etcd!etcd3           | monitor  | OK
+A | 1453179225 | user!despiegk        | monitor  | OK
+A | 1453179225 | etcd!etcd2           | monitor  | OK
+A | 1453179225 | node!ovh4            | monitor  | ERROR
+L | 1453179225 | 5        | Exception:fake error
+A | 1453179225 | idmanager!main       | monitor  | OK
+A | 1453179225 | usergroup!admin      | monitor  | OK
+A | 1453179225 | user!jan             | monitor  | OK
+A | 1453179225 | etcd!etcd1           | monitor  | OK
+A | 1453179225 | usergroup!gig        | monitor  | OK
+A | 1453179225 | user!pol             | monitor  | OK
+A | 1453179225 | rack!rack1           | monitor  | OK
+A | 1453179225 | datacenter!dc1       | monitor  | OK
+A | 1453179225 | redis!redis2         | monitor  | OK
+A | 1453179225 | user!jan2            | monitor  | OK
+A | 1453179225 | mongodb!mongo1       | monitor  | OK
+A | 1453179225 | myapp!test           | monitor  | OK
+A | 1453179225 | redis!redis1         | monitor  | OK
+A | 1453179225 | user!jan3            | monitor  | OK
+G | 1453179225 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179269 | 38       | monitor    | 2016/01/19 08:54:29
+A | 1453179269 | user!jan3            | monitor  | OK
+A | 1453179269 | etcd!etcd2           | monitor  | OK
+A | 1453179269 | myapp!test           | monitor  | OK
+A | 1453179269 | etcd!etcd3           | monitor  | OK
+A | 1453179269 | usergroup!admin      | monitor  | OK
+A | 1453179269 | user!jan2            | monitor  | OK
+A | 1453179269 | user!despiegk        | monitor  | OK
+A | 1453179269 | node!ovh4            | monitor  | ERROR
+L | 1453179269 | 5        | Exception:fake error
+A | 1453179336 | idmanager!main       | monitor  | OK
+A | 1453179336 | redis!redis1         | monitor  | OK
+A | 1453179336 | user!pol             | monitor  | OK
+A | 1453179336 | etcd!etcd1           | monitor  | OK
+A | 1453179336 | mongodb!mongo1       | monitor  | OK
+A | 1453179336 | user!jan             | monitor  | OK
+A | 1453179336 | datacenter!dc1       | monitor  | OK
+A | 1453179336 | redis!redis2         | monitor  | OK
+A | 1453179336 | usergroup!gig        | monitor  | OK
+A | 1453179336 | rack!rack1           | monitor  | OK
+G | 1453179336 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179337 | 39       | monitor    | 2016/01/19 08:55:37
+A | 1453179337 | redis!redis1         | monitor  | OK
+A | 1453179337 | etcd!etcd1           | monitor  | OK
+A | 1453179337 | datacenter!dc1       | monitor  | OK
+A | 1453179337 | etcd!etcd3           | monitor  | OK
+A | 1453179337 | mongodb!mongo1       | monitor  | OK
+A | 1453179337 | redis!redis2         | monitor  | OK
+A | 1453179337 | idmanager!main       | monitor  | OK
+A | 1453179337 | etcd!etcd2           | monitor  | OK
+A | 1453179337 | user!jan             | monitor  | OK
+A | 1453179337 | user!pol             | monitor  | OK
+A | 1453179337 | user!despiegk        | monitor  | OK
+A | 1453179337 | user!jan2            | monitor  | OK
+A | 1453179337 | user!jan3            | monitor  | OK
+A | 1453179337 | rack!rack1           | monitor  | OK
+A | 1453179337 | node!ovh4            | monitor  | ERROR
+L | 1453179337 | 5        | Exception:fake error
+A | 1453179353 | usergroup!gig        | monitor  | OK
+G | 1453179353 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179362 | 40       | monitor    | 2016/01/19 08:56:02
+A | 1453179362 | idmanager!main       | monitor  | OK
+A | 1453179362 | mongodb!mongo1       | monitor  | OK
+A | 1453179362 | etcd!etcd1           | monitor  | OK
+A | 1453179362 | redis!redis1         | monitor  | OK
+A | 1453179362 | datacenter!dc1       | monitor  | OK
+A | 1453179362 | etcd!etcd2           | monitor  | OK
+A | 1453179362 | etcd!etcd3           | monitor  | OK
+A | 1453179362 | redis!redis2         | monitor  | OK
+A | 1453179362 | rack!rack1           | monitor  | OK
+A | 1453179362 | user!jan             | monitor  | OK
+A | 1453179362 | user!jan3            | monitor  | OK
+A | 1453179362 | user!despiegk        | monitor  | OK
+A | 1453179362 | user!pol             | monitor  | OK
+A | 1453179362 | user!jan2            | monitor  | OK
+A | 1453179362 | usergroup!gig        | monitor  | OK
+A | 1453179362 | node!ovh4            | monitor  | ERROR
+L | 1453179362 | 5        | Exception:fake error
+G | 1453179362 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179373 | 41       | monitor    | 2016/01/19 08:56:13
+A | 1453179373 | datacenter!dc1       | monitor  | OK
+A | 1453179373 | mongodb!mongo1       | monitor  | OK
+A | 1453179373 | etcd!etcd2           | monitor  | OK
+A | 1453179373 | etcd!etcd3           | monitor  | OK
+A | 1453179373 | redis!redis2         | monitor  | OK
+A | 1453179373 | etcd!etcd1           | monitor  | OK
+A | 1453179373 | redis!redis1         | monitor  | OK
+A | 1453179373 | idmanager!main       | monitor  | OK
+A | 1453179373 | user!jan2            | monitor  | OK
+A | 1453179373 | user!jan3            | monitor  | OK
+A | 1453179373 | user!despiegk        | monitor  | OK
+A | 1453179373 | user!jan             | monitor  | OK
+A | 1453179373 | rack!rack1           | monitor  | OK
+A | 1453179373 | user!pol             | monitor  | OK
+A | 1453179373 | usergroup!gig        | monitor  | OK
+A | 1453179373 | node!ovh4            | monitor  | ERROR
+L | 1453179373 | 5        | Exception:fake error
+G | 1453179373 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81
+R | 1453179394 | 42       | monitor    | 2016/01/19 08:56:34
+A | 1453179394 | idmanager!main       | monitor  | OK
+A | 1453179394 | datacenter!dc1       | monitor  | OK
+A | 1453179394 | etcd!etcd2           | monitor  | OK
+A | 1453179394 | redis!redis2         | monitor  | OK
+A | 1453179394 | redis!redis1         | monitor  | OK
+A | 1453179394 | etcd!etcd1           | monitor  | OK
+A | 1453179394 | mongodb!mongo1       | monitor  | OK
+A | 1453179394 | etcd!etcd3           | monitor  | OK
+A | 1453179394 | user!jan3            | monitor  | OK
+A | 1453179394 | rack!rack1           | monitor  | OK
+A | 1453179394 | user!pol             | monitor  | OK
+A | 1453179394 | user!jan2            | monitor  | OK
+A | 1453179394 | user!jan             | monitor  | OK
+A | 1453179394 | user!despiegk        | monitor  | OK
+A | 1453179394 | usergroup!gig        | monitor  | OK
+A | 1453179394 | node!ovh4            | monitor  | ERROR
+L | 1453179394 | 5        | Exception:fake error
+G | 1453179394 | monitor  | 359abf60ceae5e9d8842c9c0106542bc4a2ffb81

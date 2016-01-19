@@ -8,15 +8,18 @@ members                        =
     'pol',
     'jan',
 
-parent                         = 'ays|idmanager!main'
+parent                         = 'idmanager!main'
+
+producer.idmanager             =
+    'idmanager!main',
 
 producer.user                  =
-    'ays|user!despiegk',
-    'ays|user!pol',
-    'ays|user!jan',
+    'user!pol',
+    'user!jan',
+    'user!despiegk',
 
 producer.usergroup             =
-    'ays|usergroup!gig',
+    'usergroup!gig',
 
 service.domain                 = 'ays'
 service.name                   = 'usergroup'

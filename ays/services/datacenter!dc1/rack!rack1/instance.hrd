@@ -2,7 +2,7 @@ description                    = 'a description'
 
 location                       = 'alocation'
 
-parent                         = 'ays|datacenter!dc1'
+parent                         = 'datacenter!dc1'
 
 service.domain                 = 'ays'
 service.name                   = 'rack'

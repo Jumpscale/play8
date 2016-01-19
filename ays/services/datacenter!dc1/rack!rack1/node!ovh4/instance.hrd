@@ -2,7 +2,7 @@ description                    = 'a description'
 
 location                       = 'alocation'
 
-parent                         = 'ays|rack!rack1'
+parent                         = 'rack!rack1'
 
 rack                           = 'rack1'
 

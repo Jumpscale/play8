@@ -1,3 +1,11 @@
+add                            = 'sometjiee'
+
+add16                          = 'sometjiee'
+
+add2                           = 'sometjiee'
+
+add3                           = 'sometjiee'
+
 email                          =
     'jan@incubaid.com',
 
@@ -8,7 +16,7 @@ identity_manager               =
 mobile                         =
     '+32475999999',
 
-parent                         = 'ays|idmanager!main'
+parent                         = 'idmanager!main'
 
 service.domain                 = 'ays'
 service.name                   = 'user'
