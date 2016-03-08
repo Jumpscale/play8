@@ -40,17 +40,57 @@ def downloadsource(host="", url="http://kanboard.net/kanboard-latest.zip"):
     c = j.tools.cuisine.get(host)
     tmpdir = j.sal.fs.joinPaths(j.dirs.tmpDir, 'composeexample')
     c.run("rm -rf {tmpdir};mkdir {tmpdir}".format(tmpdir=tmpdir))
-    to = j.sal.fs.joinPaths(tmpdir, 'application')
+    to = j.sal.fs.joinPaths(tmpdir, 'app')
     c.file_download(url, '{}.zip'.format(to))
     c.run('unzip {to}.zip -d {to}'.format(to=to))
+    print("Application is downloaded to: {}".format(to))
+    c.dir_ensure(j.sal.fs.joinPaths(to, 'cfg'))
+    c.file_copy(j.sal.fs.joinPaths('kanboard', 'app', 'cfg', 'config.php'), j.sal.fs.joinPaths(to, 'cfg'))
+    c.file_copy(j.sal.fs.joinPaths('kanboard', 'app', 'cfg', 'vhosts.conf'), j.sal.fs.joinPaths(to, 'cfg'))
+    c.file_copy(j.sal.fs.joinPaths('kanboard', 'docker-compose.yaml'), tmpdir)
+    c.run('docker-compose {} up'.format(j.sal.fs.joinPaths(tmpdir, 'docker-compose.yaml')))
 
-    print("Application is downloaded to: %s"%to)
 
 
 @click.command()
 @click.option('--host', '-h', help='connectionstring e.g. myserver:2022')
-@click.option('--url', '-h', help='url for php application e.g. http://kanboard.net/kanboard-latest.zip')
-def downloadsource(host="", url="http://kanboard.net/kanboard-latest.zip"):
+@click.option('--up', '-h', help='True for docker-compose up, False for docker-compose down')
+def dockercompose(host="", up=True):
+    c = j.tools.cuisine.get(host)
+    dc = """
+    version: '2'
+    services:
+      db:
+        image: bitnami/mariadb
+        environment:
+          - MARIADB_DATABASE=kanboard
+          - MARIADB_USER=mysql
+          - MARIADB_PASSWORD=mysql
+        volumes:
+          - ./app/data:/bitnami/mariadb/data
+
+      kanboard:
+        image: bitnami/php-fpm
+        volumes:
+          - ./app/kanboard:/app
+          - ./app/cfg/config.php:/app/config.php
+        links:
+          - db:db
+        ports:
+          - "9000:9000"
+
+      web:
+        image: bitnami/nginx
+        ports:
+          - "8080:81"
+          - "443:443"
+        links:
+          - kanboard:kanboard
+        volumes:
+          - ./app/cfg/vhosts.conf:/bitnami/nginx/conf/vhosts/kanboard.conf
+          - ./app/kanboard:/app
+    """
+
 
 
 
