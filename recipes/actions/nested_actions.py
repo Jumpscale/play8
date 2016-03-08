@@ -41,7 +41,3 @@ recoveraction=j.actions.add(j.testactions.recoveraction1,executeNow=False,force=
 
 res=j.actions.add(j.testactions.action_1, actionRecover=recoveraction, args=(), kwargs={}, die=True, stdOutput=True, errorOutput=True, retry=0, serviceObj=None, deps=None, executeNow=True,force=True)
 
-
-from ptpython.repl import embed
-print ("DEBUG NOW main")
-embed(globals(), locals())
