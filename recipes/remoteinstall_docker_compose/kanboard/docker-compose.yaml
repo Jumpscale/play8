@@ -1,0 +1,31 @@
+version: '2'
+services:
+  db:
+    image: bitnami/mariadb
+    environment:
+      - MARIADB_DATABASE=kanboard
+      - MARIADB_USER=mysql
+      - MARIADB_PASSWORD=mysql
+    volumes:
+      - ./app/data:/bitnami/mariadb/data
+
+  kanboard:
+    image: bitnami/php-fpm
+    volumes:
+      - ./app/kanboard:/app
+      - ./app/cfg/config.php:/app/config.php
+    links:
+      - db:db
+    ports:
+      - "9000:9000"
+
+  web:
+    image: bitnami/nginx
+    ports:
+      - "8080:81"
+      - "443:443"
+    links:
+      - kanboard:kanboard
+    volumes:
+      - ./app/cfg/vhosts.conf:/bitnami/nginx/conf/vhosts/kanboard.conf
+      - ./app/kanboard:/app
