@@ -15,8 +15,8 @@ def preparehost(host=""):
     """
     c=j.tools.cuisine.get(host)
 
-    print ("INSTALL DOCKER-COMPOSE, THIS WILL TAKE A WHILE")
-    c.package.install('docker-compose')
+    print ("INSTALL DOCKER AND DOCKER-COMPOSE, THIS WILL TAKE A WHILE")
+    c.docker.install()
 
 @click.command()
 @click.option('--host', '-h', help='connectionstring e.g. myserver:2022')
