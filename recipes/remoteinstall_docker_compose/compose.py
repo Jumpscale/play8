@@ -7,7 +7,7 @@ def cli():
 
 @click.command()
 @click.option('--host', '-h', help='connectionstring e.g. myserver:2022')
-def preparehost(host="", keyname="",pushkey=False):
+def preparehost(host=""):
     """
     prepare ssh host to do dockerpcompose on, assuming that keys have been pushed
     e.g.
@@ -15,32 +15,8 @@ def preparehost(host="", keyname="",pushkey=False):
     """
     c=j.tools.cuisine.get(host)
 
-    print ("INSTALL DOCKER-COMPOSE, THIS WILL TAKE A WHILE")
-    c.package.install('docker-compose')
-
-@click.command()
-@click.option('--host', '-h', help='connectionstring e.g. myserver:2022')
-@click.option('--url', '-h', help='url for php application e.g. http://kanboard.net/kanboard-latest.zip')
-def downloadsource(host="", url="http://kanboard.net/kanboard-latest.zip"):
-    """
-    download source file for the php app on the remote machine
-
-    :param url:
-    :return:
-    """
-    c = j.tools.cuisine.get(host)
-    tmpdir = j.sal.fs.joinPaths(j.dirs.tmpDir, 'composeexample')
-    c.run("rm -rf {tmpdir};mkdir {tmpdir}".format(tmpdir=tmpdir))
-    to = j.sal.fs.joinPaths(tmpdir, 'app')
-    c.file_download(url, '{}.zip'.format(to))
-    c.run('unzip {to}.zip -d {to}'.format(to=to))
-    print("Application is downloaded to: {}".format(to))
-    c.dir_ensure(j.sal.fs.joinPaths(to, 'cfg'))
-    c.file_copy(j.sal.fs.joinPaths('kanboard', 'app', 'cfg', 'config.php'), j.sal.fs.joinPaths(to, 'cfg'))
-    c.file_copy(j.sal.fs.joinPaths('kanboard', 'app', 'cfg', 'vhosts.conf'), j.sal.fs.joinPaths(to, 'cfg'))
-    c.file_copy(j.sal.fs.joinPaths('kanboard', 'docker-compose.yaml'), tmpdir)
-    c.run('docker-compose {} up'.format(j.sal.fs.joinPaths(tmpdir, 'docker-compose.yaml')))
-
+    print ("INSTALL DOCKER AND DOCKER-COMPOSE, THIS WILL TAKE A WHILE")
+    c.docker.install()
 
 
 @click.command()
@@ -48,9 +24,9 @@ def downloadsource(host="", url="http://kanboard.net/kanboard-latest.zip"):
 @click.option('--url', '-u', help='url for php application e.g. http://kanboard.net/kanboard-latest.zip')
 @click.option('--up', '-s', help='True for docker-compose up, False for docker-compose down')
 def dockercompose(host="", url="http://kanboard.net/kanboard-latest.zip", up=True):
-  """
-  python3 compose.py dockercompose --host 'host:22' --url 'http://kanboard.net/kanboard-latest.zip'
-  """
+    """
+    python3 compose.py dockercompose --host 'host:22' --url 'http://kanboard.net/kanboard-latest.zip'
+    """
     c = j.tools.cuisine.get(host)
     # c = j.tools.cuisine.local
     tmpdir = j.sal.fs.joinPaths(j.dirs.tmpDir, 'composeexample')
@@ -58,6 +34,7 @@ def dockercompose(host="", url="http://kanboard.net/kanboard-latest.zip", up=Tru
     c.dir_ensure(tmpdir)
     c.dir_ensure(to)
     c.file_download(url, '{}.zip'.format(to))
+    c.package.install('unzip')
     c.run('unzip {to}.zip -d {to}'.format(to=to))
     print("Application is downloaded to: {}".format(to))
     c.dir_ensure(j.sal.fs.joinPaths(to, 'cfg'))
@@ -104,7 +81,7 @@ def dockercompose(host="", url="http://kanboard.net/kanboard-latest.zip", up=Tru
           - ./app/cfg/vhosts.conf:/bitnami/nginx/conf/vhosts/kanboard.conf
           - ./app/kanboard:/app
     """
-    c.file_write(j.sal.fs.joinPaths(tmpdir, 'docker-compose.yaml'), composetemplate.format(**composetemplate_vars))
+    c.file_write(j.sal.fs.joinPaths(tmpdir, 'docker-compose.yml'), composetemplate.format(**composetemplate_vars))
 
     vhosts_template = """
     server {{
@@ -324,11 +301,7 @@ def dockercompose(host="", url="http://kanboard.net/kanboard-latest.zip", up=Tru
     """
 
     c.file_write(j.sal.fs.joinPaths(to, 'cfg', 'config.php'), configphp_template.format(**composetemplate_vars))
-    c.run('docker-compose {} up'.format(j.sal.fs.joinPaths(tmpdir, 'docker-compose.yaml')))
-
-
-
-
+    c.run('docker-compose -f {} up'.format(j.sal.fs.joinPaths(tmpdir, 'docker-compose.yml')))
 
 
 cli.add_command(preparehost)
