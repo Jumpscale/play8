@@ -1,19 +1,19 @@
 
-influxdb:
-  image: jumpscale/influxdb  
-  ports:
-   - "8083:8083"
-   - "8086:8086"   
-   - "3000:3000"
-etcd:
-  image: quay.io/coreos/etcd
-  volumes:
-   - .certs:/etc/ssl/certs
-  ports:
-   - "4001:4001"
-   # - "2380:2380"
-   # - "2379:2379"
-  command: -advertise-client-urls=http://0.0.0.0:4001 -listen-client-urls=http://0.0.0.0:4001
+# influxdb:
+#   image: jumpscale/influxdb  
+#   ports:
+#    - "8083:8083"
+#    - "8086:8086"   
+#    - "3000:3000"
+# etcd:
+#   image: quay.io/coreos/etcd
+#   volumes:
+#    - .certs:/etc/ssl/certs
+#   ports:
+#    - "4001:4001"
+#    # - "2380:2380"
+#    # - "2379:2379"
+#   command: -advertise-client-urls=http://0.0.0.0:4001 -listen-client-urls=http://0.0.0.0:4001
 # vulcand:
 #   image: mailgun/vulcand:v0.8.0-beta.2
 #   ports:
@@ -34,17 +34,17 @@ etcd:
 #    - "3001:3000"   
 #   volumes:
 #    - ../../../../../../data/gogs:/data
-# devel:
-#   image: jumpscale/ubuntu1510_python3
-#   ports:
-#    - "2022:22"
-#    - "6379:6379"
-#   volumes:
-#    - .:/code
-#    - ../../../:/opt/code/github/jumpscale
+devel:
+  image: jumpscale/ubuntu1510_python3
+  ports:
+   - "2022:22"
+   - "6379:6379"
+  volumes:
+   - .:/code
+   - ../../../:/opt/code/github/jumpscale
   # links:
-   # - influxdb
-   # - mongodb
+  #  - influxdb
+  #  - mongodb
    # - gogs
    # - etcd
    # - vulcand
