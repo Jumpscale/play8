@@ -1,0 +1,5 @@
+description                    = 'default identity manager'
+
+service.domain                 = 'ays'
+service.name                   = 'idmanager'
+service.version                = 
