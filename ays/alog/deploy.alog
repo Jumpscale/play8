@@ -1,8 +1,1 @@
-R | 1458104446 | 1        | unknown    | 2016/03/16 05:00:46
-R | 1458104446 | 2        | init       | 2016/03/16 05:00:46
-A | 1458104446 | user!despiegk        | input    | START
-A | 1458104446 | idmanager!main       | input    | START
-A | 1458104446 | idmanager!main       | input    | OK
-A | 1458104446 | idmanager!main       | hrd      | START
-A | 1458104446 | idmanager!main       | hrd      | OK
-A | 1458104446 | user!despiegk        | input    | OK
+R | 1458104484 | 1        | unknown    | 2016/03/16 05:01:24
