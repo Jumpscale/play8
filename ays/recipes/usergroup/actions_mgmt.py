@@ -52,7 +52,7 @@ class Actions(ActionsBase):
         #this gives us the instance names, independant from which tel or email address was used for identification
         self.service.args["members"]=membersfound
 
-        ActionsBase.input(self,self.service)
+        ActionsBase.input(self)
 
 
     def install_pre(self):
