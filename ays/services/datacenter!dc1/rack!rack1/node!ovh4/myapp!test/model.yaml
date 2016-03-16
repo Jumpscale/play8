@@ -1,1 +1,0 @@
-{etcd: 'etcd1,etcd2,etcd3', mongodb: mongo1, node: ovh4, redis: redis1}
