@@ -1,5 +1,0 @@
-description                    = 'a description'
-
-service.domain                 = 'ays'
-service.name                   = 'etcd'
-service.version                = 
