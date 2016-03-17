@@ -1,0 +1,22 @@
+add5                           = 'sometjiee'
+
+email                          =
+    'kristof@incubaid.com',
+    'something@incubaid.com',
+
+expire                         = '20/10/2018'
+
+identity_manager               = 
+
+mobile                         =
+    '+32475444444',
+    '+20454545454',
+
+parent                         = 'idmanager!main'
+
+producer.idmanager             = 
+    'ays|idmanager!main',
+
+service.domain                 = 'ays'
+service.name                   = 'user'
+service.version                = 
