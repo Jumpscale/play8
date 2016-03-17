@@ -1,0 +1,12 @@
+
+users = type:str list 
+groups = type:str list consume:usergroup:0:10
+members = type:str list consume:user:0:100
+
+identity_manager = descr:'identifies who deals with identities, the default one is just local hrds' type:str parent:'idmanager' parentauto
+
+
+
+
+
+
