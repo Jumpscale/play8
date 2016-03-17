@@ -87,3 +87,37 @@ R | 1458185181 | 5        | init       | 2016/03/17 07:26:21
 G | 1458185181 | init     | ea33f0ebf197f2aedc6e12b5448bfa301a4d4619
 R | 1458185248 | 6        | init       | 2016/03/17 07:27:28
 R | 1458185471 | 7        | init       | 2016/03/17 07:31:11
+G | 1458185921 | init_pre | 42caec74246a7db024435912e118904ab33c62c3
+R | 1458185921 | 8        | init       | 2016/03/17 07:38:41
+R | 1458186530 | 9        | init       | 2016/03/17 07:48:50
+R | 1458187240 | 10       | init       | 2016/03/17 08:00:40
+A | 1458187240 | user!despiegk        | input    | START
+A | 1458187240 | user!despiegk        | input    | OK
+A | 1458187240 | user!despiegk        | hrd      | START
+A | 1458187240 | user!despiegk        | hrd      | OK
+A | 1458187257 | user!pol             | input    | START
+A | 1458187257 | user!pol             | input    | OK
+A | 1458187257 | user!pol             | hrd      | START
+A | 1458187257 | user!pol             | hrd      | OK
+A | 1458187257 | user!jan             | input    | START
+A | 1458187257 | user!jan             | input    | OK
+A | 1458187257 | user!jan             | hrd      | START
+A | 1458187257 | user!jan             | hrd      | OK
+A | 1458187257 | user!jan2            | input    | START
+A | 1458187257 | user!jan2            | input    | OK
+A | 1458187257 | user!jan2            | hrd      | START
+A | 1458187257 | user!jan2            | hrd      | OK
+A | 1458187257 | user!jan3            | input    | START
+A | 1458187257 | user!jan3            | input    | OK
+A | 1458187257 | user!jan3            | hrd      | START
+A | 1458187257 | user!jan3            | hrd      | OK
+A | 1458187257 | user!jan4            | input    | START
+A | 1458187257 | user!jan4            | input    | OK
+A | 1458187257 | user!jan4            | hrd      | START
+A | 1458187257 | user!jan4            | hrd      | OK
+A | 1458187257 | usergroup!gig        | input    | START
+A | 1458187257 | usergroup!gig        | input    | ERROR
+L | 1458187257 | 5        | input    | Exception: could not find user:
+L | 1458187257 | 5        | input    | user!jan
+L | 1458187257 | 5        | input    | trying to create group:
+L | 1458187257 | 5        | input    | usergroup!gig
