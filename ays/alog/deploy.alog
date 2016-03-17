@@ -77,3 +77,6 @@ A | 1458185104 | myapp!test           | input    | START
 A | 1458185104 | myapp!test           | input    | OK
 A | 1458185104 | myapp!test           | hrd      | START
 A | 1458185104 | myapp!test           | hrd      | OK
+G | 1458185104 | init     | c6364a114f76f1cb82e07261a2980087dd5cc06a
+R | 1458185158 | 3        | init       | 2016/03/17 07:25:58
+G | 1458185158 | init     | c6364a114f76f1cb82e07261a2980087dd5cc06a
