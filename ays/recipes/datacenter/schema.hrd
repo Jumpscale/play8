@@ -1,7 +1,0 @@
-newvar = = type:str  default:'ddd'
-location = type:str  @ask
-description = type:multiline  @ask
-
-
-
-

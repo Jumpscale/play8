@@ -7,7 +7,7 @@ class testactions():
 
     def action_error():
         print ("ACTIONERROR")
-        raise RuntimeError("ERROR")
+        raise j.exceptions.RuntimeError("ERROR")
 
 
     def action_3():

@@ -5,7 +5,7 @@ from JumpScale import j
 
 def action_error(nr,counter=None):
     print ("ACTIONERROR")
-    raise RuntimeError("ERROR")
+    raise j.exceptions.RuntimeError("ERROR")
 
 
 def action_1(nr,counter=None):
@@ -17,7 +17,7 @@ def recover_action():
 simulateerror=True
 
 j.actions.setRunId("actiontest")
-# j.actions.resetAll()
+j.actions.resetAll()
 
 
 start=j.actions.add(action_1,args=[99999],kwargs={"counter":99999},executeNow=False,force=False)

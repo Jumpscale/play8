@@ -1,123 +1,35 @@
-R | 1458185097 | 1        | unknown    | 2016/03/17 07:24:57
-G | 1458185103 | init_pre | b989cfccde00a4b6312d89c8a06bceccc0fd8568
-R | 1458185103 | 2        | init       | 2016/03/17 07:25:03
-A | 1458185103 | user!despiegk        | input    | START
-A | 1458185103 | idmanager!main       | input    | START
-A | 1458185103 | idmanager!main       | input    | OK
-A | 1458185103 | idmanager!main       | hrd      | START
-A | 1458185103 | idmanager!main       | hrd      | OK
-A | 1458185103 | user!despiegk        | input    | OK
-A | 1458185103 | user!despiegk        | hrd      | START
-A | 1458185103 | user!despiegk        | hrd      | OK
-A | 1458185103 | user!pol             | input    | START
-A | 1458185103 | user!pol             | input    | OK
-A | 1458185103 | user!pol             | hrd      | START
-A | 1458185103 | user!pol             | hrd      | OK
-A | 1458185103 | user!jan             | input    | START
-A | 1458185103 | user!jan             | input    | OK
-A | 1458185103 | user!jan             | hrd      | START
-A | 1458185103 | user!jan             | hrd      | OK
-A | 1458185103 | user!jan2            | input    | START
-A | 1458185103 | user!jan2            | input    | OK
-A | 1458185103 | user!jan2            | hrd      | START
-A | 1458185103 | user!jan2            | hrd      | OK
-A | 1458185103 | user!jan3            | input    | START
-A | 1458185103 | user!jan3            | input    | OK
-A | 1458185103 | user!jan3            | hrd      | START
-A | 1458185103 | user!jan3            | hrd      | OK
-A | 1458185103 | user!jan4            | input    | START
-A | 1458185103 | user!jan4            | input    | OK
-A | 1458185103 | user!jan4            | hrd      | START
-A | 1458185103 | user!jan4            | hrd      | OK
-A | 1458185103 | usergroup!gig        | input    | START
-A | 1458185103 | usergroup!gig        | input    | OK
-A | 1458185103 | usergroup!gig        | hrd      | START
-A | 1458185103 | usergroup!gig        | hrd      | OK
-A | 1458185103 | usergroup!admin      | input    | START
-A | 1458185103 | usergroup!admin      | input    | OK
-A | 1458185103 | usergroup!admin      | hrd      | START
-A | 1458185103 | usergroup!admin      | hrd      | OK
-A | 1458185103 | datacenter!dc1       | input    | START
-A | 1458185103 | datacenter!dc1       | input    | OK
-A | 1458185103 | datacenter!dc1       | hrd      | START
-A | 1458185103 | datacenter!dc1       | hrd      | OK
-A | 1458185103 | rack!rack1           | input    | START
-A | 1458185103 | rack!rack1           | input    | OK
-A | 1458185103 | rack!rack1           | hrd      | START
-A | 1458185103 | rack!rack1           | hrd      | OK
-A | 1458185104 | node!ovh4            | input    | START
-A | 1458185104 | node!ovh4            | input    | OK
-A | 1458185104 | node!ovh4            | hrd      | START
-A | 1458185104 | node!ovh4            | hrd      | OK
-A | 1458185104 | mongodb!mongo1       | input    | START
-A | 1458185104 | mongodb!mongo1       | input    | OK
-A | 1458185104 | mongodb!mongo1       | hrd      | START
-A | 1458185104 | mongodb!mongo1       | hrd      | OK
-A | 1458185104 | redis!redis1         | input    | START
-A | 1458185104 | redis!redis1         | input    | OK
-A | 1458185104 | redis!redis1         | hrd      | START
-A | 1458185104 | redis!redis1         | hrd      | OK
-A | 1458185104 | redis!redis2         | input    | START
-A | 1458185104 | redis!redis2         | input    | OK
-A | 1458185104 | redis!redis2         | hrd      | START
-A | 1458185104 | redis!redis2         | hrd      | OK
-A | 1458185104 | etcd!etcd1           | input    | START
-A | 1458185104 | etcd!etcd1           | input    | OK
-A | 1458185104 | etcd!etcd1           | hrd      | START
-A | 1458185104 | etcd!etcd1           | hrd      | OK
-A | 1458185104 | etcd!etcd2           | input    | START
-A | 1458185104 | etcd!etcd2           | input    | OK
-A | 1458185104 | etcd!etcd2           | hrd      | START
-A | 1458185104 | etcd!etcd2           | hrd      | OK
-A | 1458185104 | etcd!etcd3           | input    | START
-A | 1458185104 | etcd!etcd3           | input    | OK
-A | 1458185104 | etcd!etcd3           | hrd      | START
-A | 1458185104 | etcd!etcd3           | hrd      | OK
-A | 1458185104 | myapp!test           | input    | START
-A | 1458185104 | myapp!test           | input    | OK
-A | 1458185104 | myapp!test           | hrd      | START
-A | 1458185104 | myapp!test           | hrd      | OK
-G | 1458185104 | init     | c6364a114f76f1cb82e07261a2980087dd5cc06a
-R | 1458185158 | 3        | init       | 2016/03/17 07:25:58
-G | 1458185158 | init     | c6364a114f76f1cb82e07261a2980087dd5cc06a
-G | 1458185176 | init_pre | ea33f0ebf197f2aedc6e12b5448bfa301a4d4619
-R | 1458185176 | 4        | init       | 2016/03/17 07:26:16
-G | 1458185176 | init     | ea33f0ebf197f2aedc6e12b5448bfa301a4d4619
-R | 1458185181 | 5        | init       | 2016/03/17 07:26:21
-G | 1458185181 | init     | ea33f0ebf197f2aedc6e12b5448bfa301a4d4619
-R | 1458185248 | 6        | init       | 2016/03/17 07:27:28
-R | 1458185471 | 7        | init       | 2016/03/17 07:31:11
-G | 1458185921 | init_pre | 42caec74246a7db024435912e118904ab33c62c3
-R | 1458185921 | 8        | init       | 2016/03/17 07:38:41
-R | 1458186530 | 9        | init       | 2016/03/17 07:48:50
-R | 1458187240 | 10       | init       | 2016/03/17 08:00:40
-A | 1458187240 | user!despiegk        | input    | START
-A | 1458187240 | user!despiegk        | input    | OK
-A | 1458187240 | user!despiegk        | hrd      | START
-A | 1458187240 | user!despiegk        | hrd      | OK
-A | 1458187257 | user!pol             | input    | START
-A | 1458187257 | user!pol             | input    | OK
-A | 1458187257 | user!pol             | hrd      | START
-A | 1458187257 | user!pol             | hrd      | OK
-A | 1458187257 | user!jan             | input    | START
-A | 1458187257 | user!jan             | input    | OK
-A | 1458187257 | user!jan             | hrd      | START
-A | 1458187257 | user!jan             | hrd      | OK
-A | 1458187257 | user!jan2            | input    | START
-A | 1458187257 | user!jan2            | input    | OK
-A | 1458187257 | user!jan2            | hrd      | START
-A | 1458187257 | user!jan2            | hrd      | OK
-A | 1458187257 | user!jan3            | input    | START
-A | 1458187257 | user!jan3            | input    | OK
-A | 1458187257 | user!jan3            | hrd      | START
-A | 1458187257 | user!jan3            | hrd      | OK
-A | 1458187257 | user!jan4            | input    | START
-A | 1458187257 | user!jan4            | input    | OK
-A | 1458187257 | user!jan4            | hrd      | START
-A | 1458187257 | user!jan4            | hrd      | OK
-A | 1458187257 | usergroup!gig        | input    | START
-A | 1458187257 | usergroup!gig        | input    | ERROR
-L | 1458187257 | 5        | input    | Exception: could not find user:
-L | 1458187257 | 5        | input    | user!jan
-L | 1458187257 | 5        | input    | trying to create group:
-L | 1458187257 | 5        | input    | usergroup!gig
+R | 1458193358 | 1        | unknown    | 2016/03/17 09:42:38
+A | 1458194046 | user!despiegk        | input    | START
+A | 1458194046 | idmanager!main       | input    | START
+A | 1458194046 | idmanager!main       | input    | OK
+A | 1458194046 | idmanager!main       | hrd      | START
+A | 1458194046 | idmanager!main       | hrd      | OK
+A | 1458194046 | user!despiegk        | input    | OK
+A | 1458194046 | user!despiegk        | hrd      | START
+A | 1458194046 | user!despiegk        | hrd      | OK
+A | 1458194046 | user!pol             | input    | START
+A | 1458194046 | user!pol             | input    | OK
+A | 1458194046 | user!pol             | hrd      | START
+A | 1458194046 | user!pol             | hrd      | OK
+A | 1458194046 | user!jan             | input    | START
+A | 1458194046 | user!jan             | input    | OK
+A | 1458194046 | user!jan             | hrd      | START
+A | 1458194046 | user!jan             | hrd      | OK
+A | 1458194046 | user!jan2            | input    | START
+A | 1458194046 | user!jan2            | input    | OK
+A | 1458194046 | user!jan2            | hrd      | START
+A | 1458194046 | user!jan2            | hrd      | OK
+A | 1458194046 | user!jan3            | input    | START
+A | 1458194046 | user!jan3            | input    | OK
+A | 1458194046 | user!jan3            | hrd      | START
+A | 1458194046 | user!jan3            | hrd      | OK
+A | 1458194046 | user!jan4            | input    | START
+A | 1458194046 | user!jan4            | input    | OK
+A | 1458194046 | user!jan4            | hrd      | START
+A | 1458194046 | user!jan4            | hrd      | OK
+A | 1458194046 | usergroup!gig        | input    | START
+A | 1458194046 | usergroup!gig        | input    | ERROR
+L | 1458194046 | 5        | input    | Exception: could not find user:
+L | 1458194046 | 5        | input    | user!jan3
+L | 1458194046 | 5        | input    | trying to create group:
+L | 1458194046 | 5        | input    | usergroup!gig

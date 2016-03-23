@@ -1,4 +1,4 @@
-
+import hashlib
 from JumpScale import j
 
 ActionsBase = j.atyourservice.getActionsBaseClassMgmt()
@@ -6,7 +6,6 @@ ActionsBase = j.atyourservice.getActionsBaseClassMgmt()
 
 class Actions(ActionsBase):
 
-    def install(self, service_obj):
+    def todb(self, service_obj):
 
-        print("remote install action")
-
+        service_obj.log("this would dump data to database")

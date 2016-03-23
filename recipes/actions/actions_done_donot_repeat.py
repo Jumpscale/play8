@@ -5,7 +5,7 @@ from JumpScale import j
 
 def action_error():
     print ("ACTIONERROR")
-    raise RuntimeError("ERROR")
+    raise j.exceptions.RuntimeError("ERROR")
 
 
 def action_1(nr,counter=None):

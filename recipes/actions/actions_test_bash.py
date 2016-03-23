@@ -9,6 +9,7 @@ c.reset_actions()
 # from pudb import set_trace; set_trace() 
 c.bash.environ
 
+# from pudb import set_trace; set_trace() 
 c.bash.addPath('/tmp')
 c.bash.addPath('/tmp2')
 

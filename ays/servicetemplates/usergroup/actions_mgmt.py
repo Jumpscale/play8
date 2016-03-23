@@ -30,7 +30,7 @@ class Actions(ActionsBase):
                         continue
                 if found==False:
                     msg="could not find user:\n%s\ntrying to create group:\n%s"%(user,self.service)
-                    raise RuntimeError(msg)
+                    raise j.exceptions.RuntimeError(msg)
 
         if "groups" in self.service.args:
             self.service.args["groups"]=j.data.text.getList(self.service.args["groups"])
@@ -39,10 +39,10 @@ class Actions(ActionsBase):
                 groups= j.atyourservice.findServices(role="usergroup",instance=groupname)
                 if len(groups)==0:
                     msg="could not find group:\n%s\ntrying to create group:\n%s"%(groupname,self.service)
-                    raise RuntimeError(msg)
+                    raise j.exceptions.RuntimeError(msg)
                 elif len(groups)>1:
                     msg="found more than 1 group:\n%s\ntrying to create group:\n%s"%(groupname,self.service)
-                    raise RuntimeError(msg)
+                    raise j.exceptions.RuntimeError(msg)
                 else:
                     group=groups[0]
                     for member in group.hrd.getList("members"):

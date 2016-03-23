@@ -1,0 +1,17 @@
+
+
+
+yamltest_y1:
+  location:
+    - alocation
+  description:
+    - "a descriptionn"
+
+yamltest_y2:
+  location:
+    - alocation
+  description:
+    - "a descriptionn"
+  redis: 'redis1'
+  etcd: 'etcd1,etcd2,etcd3'
+  mongodb: 'mongo1'    

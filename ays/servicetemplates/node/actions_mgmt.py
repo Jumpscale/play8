@@ -16,4 +16,4 @@ class Actions(ActionsBase):
 
     def monitor(self,service_obj):
         return
-        raise RuntimeError("fake error")
+        raise j.exceptions.RuntimeError("fake error")
